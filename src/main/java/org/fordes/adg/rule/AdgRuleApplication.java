@@ -22,9 +22,8 @@ import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Component;
-
-import java.io.File;
-import java.nio.charset.Charset;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ThreadPoolExecutor;
@@ -35,20 +34,15 @@ import java.util.concurrent.ThreadPoolExecutor;
 @SpringBootApplication
 public class AdgRuleApplication implements ApplicationRunner {
 
-    private final static int N = Runtime.getRuntime().availableProcessors();
-
     private final RuleConfig ruleConfig;
-
     private final OutputConfig outputConfig;
-
     private final ThreadPoolExecutor executor = ExecutorBuilder.create()
-            .setCorePoolSize(2 * N)
-            .setMaxPoolSize(2 * N)
+            .setCorePoolSize(4) // 调整核心线程数
+            .setMaxPoolSize(8) // 调整最大线程数
             .setHandler(new ThreadPoolExecutor.CallerRunsPolicy())
             .build();
 
-
-   @Override
+    @Override
     public void run(ApplicationArguments args) throws Exception {
         TimeInterval interval = DateUtil.timer();
 
@@ -78,16 +72,16 @@ public class AdgRuleApplication implements ApplicationRunner {
             });
         }
 
-        //使用布隆过滤器实现去重
-        BloomFilter<String> filter = BloomFilter
-                .create(Funnels.stringFunnel(Charset.defaultCharset()), 1000000);
+        // 使用布隆过滤器实现去重
+        BloomFilter<String> filter = BloomFilter.create(Funnels.stringFunnel(StandardCharsets.UTF_8), 1000000);
 
-        //远程规则
+        // 远程规则
         ruleConfig.getRemote().stream()
                 .filter(StrUtil::isNotBlank)
                 .map(URLUtil::normalize)
                 .forEach(e -> executor.execute(new RemoteRuleThread(e, typeFileMap, filter)));
-        //本地规则
+
+        // 本地规则
         ruleConfig.getLocal().stream()
                 .filter(StrUtil::isNotBlank)
                 .map(e -> {
