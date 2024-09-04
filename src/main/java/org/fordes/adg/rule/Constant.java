@@ -23,4 +23,6 @@ public class Constant {
      */
     public static final String BASIC_MODIFY_REGEX = "^@@\\|\\||^\\|\\||^@@|\\$important$|\\s#[^#]*$";
 
+    public static final String TITLE_TEMPLATE = "! Title: {}";
+
 }
