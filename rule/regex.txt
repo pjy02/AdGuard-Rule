@@ -187,6 +187,7 @@ analytics-*.aasaam.com
 ||alishop*.ru^
 ||67.21.92.*.gif
 ||bd*-ys.km.com^
+||pijama.*.elasticbeanstalk.com^
 ||ad*.wisenut.co.kr^
 ||impservice*.youdao.com^
 ||pixel*.adswizz.com
@@ -630,7 +631,6 @@ analytics-*.aasaam.com
 ||ad.*.xiaomi.com^
 ||ads*.opensubtitles.org^
 rgmechanicsgames.com*VPN.exe
-||pijama.*.elasticbeanstalk.com^
 ||ads*.dfiles.eu^
 @@||adobeid-*.services.adobe.com^
 ||ads*.depositfiles.com^
@@ -650,32 +650,3 @@ rgmechanicsgames.com*VPN.exe
 ||cintent.streanplay.
 Banner468x60
 ||imgpfx.arenavision.
-<script>
-            pageOptions
-    xhr.send();
-            } else {
-h1 {
-	}
-        loadFeed(...getLoadFeedArguments());
-    function getLoadFeedArguments() {
-                arguments.push(this[possibleArguments[i]]);
-        }
-};
-                }
-                console.log(JSON.parse(xhr.responseText))
-<style>
-            2024 Copyright.  All Rights Reserved.
-        ];
-<head>
-    Privacy Policy
-			Buy this domain.
-    }
-                    return;
-    };
-    <script>
-<!DOCTYPE html>
-body {
-                console.log('There was a problem with the request.');
-            }
-        return arguments;
-}
