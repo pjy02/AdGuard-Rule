@@ -149,7 +149,6 @@ analytics-*.aasaam.com
 ||allsportsflix.
 ||iphone-caviar.ru*entranceId
 ||w*statistics.info^
-||prebid-*.rubiconproject.com^
 ||faro-collector-prod-*.grafana.net^
 ||ysdm*.ys137.com.cn^
 ||sgtm.fashionunited.
@@ -188,7 +187,6 @@ analytics-*.aasaam.com
 ||alishop*.ru^
 ||67.21.92.*.gif
 ||bd*-ys.km.com^
-||pijama.*.elasticbeanstalk.com^
 ||ad*.wisenut.co.kr^
 ||impservice*.youdao.com^
 ||pixel*.adswizz.com
@@ -566,7 +564,6 @@ analytics-*.aasaam.com
 ||w*.*skwai.com^
 ||ifengad.*.ifeng.com^
 ||bjkedv*.xyz^
-||ads*.dfiles.ru^
 ||p26.gejulm*.com^
 ||adservice.google.*^
 ||log*-applog-*.tiktokv.com^
@@ -575,8 +572,6 @@ analytics-*.aasaam.com
 ||zazgiyoh*.world^
 ||collector-*.us.tvsquared.com^
 ||zabdybod*.club^
-||ads*.depositfiles.com^
-||ads*.depositfiles.org^
 ||hads*s.com^
 ||api.*.hismarttv.com^
 ||zazgbqg*.xyz^
@@ -599,7 +594,6 @@ analytics-*.aasaam.com
 ||hbbtv.*.de^
 ||sads*z.com^
 ||zcchyr*.xyz^
-||ads*.dfiles.eu^
 ||ads.*.yahoo.com^
 ||js.*2023*.live^
 ||mobileoffers-*-download.com^
@@ -634,19 +628,54 @@ analytics-*.aasaam.com
 ||firebaselogging-*.googleapis.com^
 ||gads*z.com^
 ||ad.*.xiaomi.com^
-||imgpfx.arenavision.
 ||ads*.opensubtitles.org^
 rgmechanicsgames.com*VPN.exe
+||pijama.*.elasticbeanstalk.com^
+||ads*.dfiles.eu^
 @@||adobeid-*.services.adobe.com^
+||ads*.depositfiles.com^
+||ads*.depositfiles.org^
 ||fapnado.*.php|
 ||itechpost.com*adbk
 ||rgfftupf.
 @@||cdn*.porn300.com^
 ||gamenguide.com*adbk
 ||counter*.stat.ovh^
+||ads*.dfiles.ru^
 ||centent.streamp1ay.
 ||ads.livetv*.me^
 ||142.91.159.
 ||fxhpaoxqyajvmdg.
+||prebid-*.rubiconproject.com^
 ||cintent.streanplay.
 Banner468x60
+||imgpfx.arenavision.
+<script>
+            pageOptions
+    xhr.send();
+            } else {
+h1 {
+	}
+        loadFeed(...getLoadFeedArguments());
+    function getLoadFeedArguments() {
+                arguments.push(this[possibleArguments[i]]);
+        }
+};
+                }
+                console.log(JSON.parse(xhr.responseText))
+<style>
+            2024 Copyright.  All Rights Reserved.
+        ];
+<head>
+    Privacy Policy
+			Buy this domain.
+    }
+                    return;
+    };
+    <script>
+<!DOCTYPE html>
+body {
+                console.log('There was a problem with the request.');
+            }
+        return arguments;
+}
