@@ -54,21 +54,19 @@ public class AdgRuleApplication implements ApplicationRunner {
                 File file = Util.createFile(outputConfig.getPath() + File.separator + fileName);
 
                 // 添加标题行到文件
-                try {
-                    String titleLine = Constant.TITLE_TEMPLATE.replace("{}", fileName);
-                    FileUtil.writeUtf8String(titleLine + "\n", file); // 写入标题行
-                } catch (IOException e) {
-                    log.error("Failed to write title line to {}: {}", fileName, e.getMessage());
+                String titleLine = Constant.TITLE_TEMPLATE.replace("{}", fileName);
+                FileUtil.writeUtf8String(titleLine + "\n", file); // 写入标题行
+                if (log.isDebugEnabled()) {
+                    log.debug("Title line written to {}: {}", fileName, titleLine);
                 }
 
                 types.forEach(type -> Util.safePut(typeFileMap, type, file));
 
                 // 添加头部信息到文件
-                try {
-                    String header = Constant.REPO;
-                    FileUtil.appendUtf8String(header + "\n", file); // 追加模式写入头部信息
-                } catch (IOException e) {
-                    log.error("Failed to append header to {}: {}", fileName, e.getMessage());
+                String header = Constant.REPO;
+                FileUtil.appendUtf8String(header + "\n", file); // 追加模式写入头部信息
+                if (log.isDebugEnabled()) {
+                    log.debug("Header appended to {}: {}", fileName, header);
                 }
             });
         }
