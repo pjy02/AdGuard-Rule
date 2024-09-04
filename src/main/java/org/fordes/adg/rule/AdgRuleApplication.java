@@ -47,46 +47,44 @@ public class AdgRuleApplication implements ApplicationRunner {
     private static final String UPDATE = "! Update time: {}\r\n";
 
     @Override
-    public void run(ApplicationArguments args) throws Exception {
-        TimeInterval interval = DateUtil.timer();
-
-        // 初始化，根据配置建立文件
-        final Map<RuleType, Set<File>> typeFileMap = MapUtil.newHashMap();
-        if (!outputConfig.getFiles().isEmpty()) {
-            outputConfig.getFiles().forEach((fileName, types) -> {
-                File file = Util.createFile(outputConfig.getPath() + File.separator + fileName);
-
-                // 获取不带扩展名的文件名
-                String baseFileName = FileUtil.mainName(fileName);
-
-                // 获取当前时间作为更新时间
-                String currentTime = DateUtil.now();
-
-                // 添加标题行到文件
-                String titleLine = TITLE_TEMPLATE.replace("{}", baseFileName);
-                FileUtil.writeUtf8String(titleLine + "\n", file); // 写入标题行
-                if (log.isDebugEnabled()) {
-                    log.debug("Title line written to {}: {}", fileName, titleLine);
-                }
-
-                // 添加更新时间到文件
-                String updateTime = UPDATE.replace("{}", currentTime);
-                FileUtil.appendUtf8String(updateTime, file); // 追加模式写入更新时间
-                if (log.isDebugEnabled()) {
-                    log.debug("Update time written to {}: {}", fileName, updateTime);
-                }
-
-                types.forEach(type -> Util.safePut(typeFileMap, type, file));
-
-                // 添加头部信息到文件
-                String header = Constant.REPO;
-                FileUtil.appendUtf8String(header + "\n", file); // 追加模式写入头部信息
-                if (log.isDebugEnabled()) {
-                    log.debug("Header appended to {}: {}", fileName, header);
-                }
-            });
-        }
-
+public void run(ApplicationArguments args) throws Exception {
+    TimeInterval interval = DateUtil.timer();
+    // 初始化，根据配置建立文件
+    final Map<RuleType, Set<File>> typeFileMap = MapUtil.newHashMap();
+    if (!outputConfig.getFiles().isEmpty()) {
+        outputConfig.getFiles().forEach((fileName, types) -> {
+            File file = Util.createFile(outputConfig.getPath() + File.separator + fileName);
+            // 获取不带扩展名的文件名
+            String baseFileName = FileUtil.mainName(fileName);
+            // 获取当前时间作为更新时间
+            String currentTime = DateUtil.now();
+            // 添加标题行到文件
+            String titleLine = TITLE_TEMPLATE.replace("{}", baseFileName);
+            FileUtil.writeUtf8String(titleLine + "\n", file); // 写入标题行
+            if (log.isDebugEnabled()) {
+                log.debug("Title line written to {}: {}", fileName, titleLine);
+            }
+            // 添加描述行到文件
+            String descriptionLine = "! Description: AdGuard、AdGuardHome广告过滤规则合并/去重";
+            FileUtil.appendUtf8String(descriptionLine + "\n", file); // 追加模式写入描述行
+            if (log.isDebugEnabled()) {
+                log.debug("Description line written to {}: {}", fileName, descriptionLine);
+            }
+            // 添加更新时间到文件
+            String updateTime = UPDATE.replace("{}", currentTime);
+            FileUtil.appendUtf8String(updateTime, file); // 追加模式写入更新时间
+            if (log.isDebugEnabled()) {
+                log.debug("Update time written to {}: {}", fileName, updateTime);
+            }
+            types.forEach(type -> Util.safePut(typeFileMap, type, file));
+            // 添加头部信息到文件
+            String header = Constant.REPO;
+            FileUtil.appendUtf8String(header + "\n", file); // 追加模式写入头部信息
+            if (log.isDebugEnabled()) {
+                log.debug("Header appended to {}: {}", fileName, header);
+            }
+        });
+    }
         // 使用布隆过滤器实现去重
         BloomFilter<String> filter = BloomFilter.create(Funnels.stringFunnel(StandardCharsets.UTF_8), 1000000);
 
