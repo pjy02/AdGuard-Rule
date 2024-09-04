@@ -1,5 +1,4 @@
 ! Title: hosts.txt
-
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 

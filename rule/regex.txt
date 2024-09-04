@@ -1,5 +1,4 @@
 ! Title: regex.txt
-
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
@@ -606,6 +605,7 @@ analytics-*.aasaam.com
 ||adsfilebssdlbig.*.kugou.com^
 ||gads*s.com^
 ||aj1*.xyz^
+||util-*.simply-hentai.com^
 ||geotargetly-api-*.com^
 ||collector-*.px-cloud.net^
 ||fads*z.com^
@@ -642,7 +642,6 @@ rgmechanicsgames.com*VPN.exe
 @@||cdn*.porn300.com^
 ||gamenguide.com*adbk
 ||counter*.stat.ovh^
-||util-*.simply-hentai.com^
 ||ads*.dfiles.ru^
 ||centent.streamp1ay.
 ||ads.livetv*.me^
@@ -652,32 +651,3 @@ rgmechanicsgames.com*VPN.exe
 ||cintent.streanplay.
 Banner468x60
 ||imgpfx.arenavision.
-<script>
-            pageOptions
-    xhr.send();
-            } else {
-h1 {
-	}
-        loadFeed(...getLoadFeedArguments());
-    function getLoadFeedArguments() {
-                arguments.push(this[possibleArguments[i]]);
-        }
-};
-                }
-                console.log(JSON.parse(xhr.responseText))
-<style>
-            2024 Copyright.  All Rights Reserved.
-        ];
-<head>
-    Privacy Policy
-			Buy this domain.
-    }
-                    return;
-    };
-    <script>
-<!DOCTYPE html>
-body {
-                console.log('There was a problem with the request.');
-            }
-        return arguments;
-}
