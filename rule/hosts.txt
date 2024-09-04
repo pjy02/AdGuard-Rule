@@ -1,4 +1,5 @@
-# Update time: 2024-09-04 17:49:42
+! Version: 2024-09-04 18:23:37
+! Homepage: https://github.com/pjy02/AdGuard-Rule
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
