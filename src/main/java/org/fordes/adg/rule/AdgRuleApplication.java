@@ -12,6 +12,8 @@ import com.google.common.hash.BloomFilter;
 import com.google.common.hash.Funnels;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ThreadPoolExecutor;
@@ -53,17 +55,23 @@ public class AdgRuleApplication implements ApplicationRunner {
         // 初始化，根据配置建立文件
         final Map<RuleType, Set<File>> typeFileMap = MapUtil.newHashMap();
         if (!outputConfig.getFiles().isEmpty()) {
-            outputConfig.getFiles().forEach((fileName, types) -> {
-                File file = Util.createFile(outputConfig.getPath() + File.separator + fileName + ".txt");
+            outputConfig.getFiles().forEach((baseFileName, types) -> {
+                // 获取当前时间作为时间戳
+                SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd_HHmmss");
+                String timestamp = sdf.format(new Date());
+
+                // 构建带有时间戳的完整文件名
+                String fileName = baseFileName + " " + timestamp + ".txt";
+                File file = Util.createFile(outputConfig.getPath() + File.separator + fileName);
 
                 // 获取不带扩展名的文件名
-                String baseFileName = FileUtil.mainName(fileName);
+                String baseName = FileUtil.mainName(fileName);
 
                 // 获取当前时间作为更新时间
                 String currentTime = DateUtil.now();
 
                 // 添加标题行到文件
-                String titleLine = TITLE_TEMPLATE.replace("{}", baseFileName);
+                String titleLine = TITLE_TEMPLATE.replace("{}", baseName);
                 FileUtil.writeUtf8String(titleLine + "\n", file); // 写入标题行
                 if (log.isDebugEnabled()) {
                     log.debug("Title line written to {}: {}", fileName, titleLine);
