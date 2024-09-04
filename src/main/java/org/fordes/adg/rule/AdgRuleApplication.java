@@ -22,9 +22,8 @@ import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Component;
-
-import java.io.File;
-import java.nio.charset.Charset;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ThreadPoolExecutor;
@@ -35,18 +34,13 @@ import java.util.concurrent.ThreadPoolExecutor;
 @SpringBootApplication
 public class AdgRuleApplication implements ApplicationRunner {
 
-    private final static int N = Runtime.getRuntime().availableProcessors();
-
     private final RuleConfig ruleConfig;
-
     private final OutputConfig outputConfig;
-
     private final ThreadPoolExecutor executor = ExecutorBuilder.create()
-            .setCorePoolSize(2 * N)
-            .setMaxPoolSize(2 * N)
+            .setCorePoolSize(4) // 调整核心线程数
+            .setMaxPoolSize(8) // 调整最大线程数
             .setHandler(new ThreadPoolExecutor.CallerRunsPolicy())
             .build();
-
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
@@ -57,20 +51,37 @@ public class AdgRuleApplication implements ApplicationRunner {
         if (!outputConfig.getFiles().isEmpty()) {
             outputConfig.getFiles().forEach((fileName, types) -> {
                 File file = Util.createFile(outputConfig.getPath() + File.separator + fileName);
-                types.forEach(type -> Util.safePut(typeFileMap, type, Util.createFile(file)));
+
+                // 添加标题行到文件
+                try {
+                    String titleLine = Constant.TITLE_TEMPLATE.replace("{}", fileName);
+                    FileUtil.writeUtf8String(titleLine + "\n", file); // 写入标题行
+                } catch (IOException e) {
+                    log.error("Failed to write title line to {}: {}", fileName, e.getMessage());
+                }
+
+                types.forEach(type -> Util.safePut(typeFileMap, type, file));
+
+                // 添加头部信息到文件
+                try {
+                    String header = Constant.REPO;
+                    FileUtil.writeUtf8String(header + "\n", file, true); // 追加模式写入头部信息
+                } catch (IOException e) {
+                    log.error("Failed to write header to {}: {}", fileName, e.getMessage());
+                }
             });
         }
 
-        //使用布隆过滤器实现去重
-        BloomFilter<String> filter = BloomFilter
-                .create(Funnels.stringFunnel(Charset.defaultCharset()), 1000000);
+        // 使用布隆过滤器实现去重
+        BloomFilter<String> filter = BloomFilter.create(Funnels.stringFunnel(StandardCharsets.UTF_8), 1000000);
 
-        //远程规则
+        // 远程规则
         ruleConfig.getRemote().stream()
                 .filter(StrUtil::isNotBlank)
                 .map(URLUtil::normalize)
                 .forEach(e -> executor.execute(new RemoteRuleThread(e, typeFileMap, filter)));
-        //本地规则
+
+        // 本地规则
         ruleConfig.getLocal().stream()
                 .filter(StrUtil::isNotBlank)
                 .map(e -> {
