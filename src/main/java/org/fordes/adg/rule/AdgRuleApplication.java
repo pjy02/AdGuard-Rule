@@ -47,13 +47,13 @@ public class AdgRuleApplication implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        TimeInterval interval = DateUtil.timer();
+        Instant startTime = Instant.now(); // 记录开始时间
 
         // 初始化，根据配置建立文件
         final Map<RuleType, Set<File>> typeFileMap = MapUtil.newHashMap();
         if (!outputConfig.getFiles().isEmpty()) {
             outputConfig.getFiles().forEach((fileName, types) -> {
-                File file = Util.createFile(outputConfig.getPath() + File.separator + fileName);
+                File file = Util.createFile(outputConfig.getPath() + File.separator + fileName + ".txt");
 
                 // 获取不带扩展名的文件名
                 String baseFileName = FileUtil.mainName(fileName);
@@ -111,7 +111,9 @@ public class AdgRuleApplication implements ApplicationRunner {
             if (executor.getActiveCount() > 0) {
                 ThreadUtil.safeSleep(1000);
             } else {
-                log.info("Done! {} ms", interval.intervalMs());
+                Instant endTime = Instant.now(); // 记录结束时间
+                long durationMillis = java.time.Duration.between(startTime, endTime).toMillis();
+                log.info("Done! {} ms", durationMillis);
                 System.exit(0);
             }
         }
