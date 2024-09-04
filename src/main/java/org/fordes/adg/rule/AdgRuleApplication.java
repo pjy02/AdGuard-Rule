@@ -54,7 +54,7 @@ public class AdgRuleApplication implements ApplicationRunner {
         final Map<RuleType, Set<File>> typeFileMap = MapUtil.newHashMap();
         if (!outputConfig.getFiles().isEmpty()) {
             outputConfig.getFiles().forEach((fileName, types) -> {
-                File file = Util.createFile(outputConfig.getPath() + File.separator + fileName + ".txt");
+                File file = Util.createFile(outputConfig.getPath() + File.separator + fileName);
 
                 // 获取不带扩展名的文件名
                 String baseFileName = FileUtil.mainName(fileName);
