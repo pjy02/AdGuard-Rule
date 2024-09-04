@@ -1,7 +1,6 @@
 package org.fordes.adg.rule;
 
 import cn.hutool.core.date.DateUtil;
-import cn.hutool.core.date.TimeInterval;
 import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.map.MapUtil;
 import cn.hutool.core.thread.ExecutorBuilder;
@@ -12,8 +11,6 @@ import com.google.common.hash.BloomFilter;
 import com.google.common.hash.Funnels;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ThreadPoolExecutor;
@@ -56,12 +53,8 @@ public class AdgRuleApplication implements ApplicationRunner {
         final Map<RuleType, Set<File>> typeFileMap = MapUtil.newHashMap();
         if (!outputConfig.getFiles().isEmpty()) {
             outputConfig.getFiles().forEach((baseFileName, types) -> {
-                // 获取当前时间作为时间戳
-                SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd_HHmmss");
-                String timestamp = sdf.format(new Date());
-
-                // 构建带有时间戳的完整文件名
-                String fileName = baseFileName + " " + timestamp + ".txt";
+                // 构建完整的文件名
+                String fileName = baseFileName + ".txt";
                 File file = Util.createFile(outputConfig.getPath() + File.separator + fileName);
 
                 // 获取不带扩展名的文件名
