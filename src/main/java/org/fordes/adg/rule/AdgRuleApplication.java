@@ -1,7 +1,6 @@
 package org.fordes.adg.rule;
 
 import cn.hutool.core.date.DateUtil;
-import cn.hutool.core.date.TimeInterval;
 import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.map.MapUtil;
 import cn.hutool.core.thread.ExecutorBuilder;
@@ -46,7 +45,7 @@ public class AdgRuleApplication implements ApplicationRunner {
     private static final String TITLE_TEMPLATE = "! Title: {}";
     private static final String UPDATE = "! Update time: {}\r\n";
 
- @Override
+    @Override
     public void run(ApplicationArguments args) throws Exception {
         TimeInterval interval = DateUtil.timer();
 
@@ -86,7 +85,6 @@ public class AdgRuleApplication implements ApplicationRunner {
                 types.forEach(type -> Util.safePut(typeFileMap, type, file));
             });
         }
-
 
         // 使用布隆过滤器实现去重
         BloomFilter<String> filter = BloomFilter.create(Funnels.stringFunnel(StandardCharsets.UTF_8), 1000000);
