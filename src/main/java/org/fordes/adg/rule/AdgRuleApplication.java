@@ -46,7 +46,7 @@ public class AdgRuleApplication implements ApplicationRunner {
     private static final String TITLE_TEMPLATE = "! Title: {}";
     private static final String UPDATE = "! Update time: {}\r\n";
 
-    @Override
+ @Override
     public void run(ApplicationArguments args) throws Exception {
         TimeInterval interval = DateUtil.timer();
 
@@ -69,6 +69,13 @@ public class AdgRuleApplication implements ApplicationRunner {
                     log.debug("Title line written to {}: {}", fileName, titleLine);
                 }
 
+                // 添加头部信息到文件
+                String header = Constant.REPO;
+                FileUtil.appendUtf8String(header + "\n", file); // 追加模式写入头部信息
+                if (log.isDebugEnabled()) {
+                    log.debug("Header appended to {}: {}", fileName, header);
+                }
+
                 // 添加更新时间到文件
                 String updateTime = UPDATE.replace("{}", currentTime);
                 FileUtil.appendUtf8String(updateTime, file); // 追加模式写入更新时间
@@ -77,15 +84,9 @@ public class AdgRuleApplication implements ApplicationRunner {
                 }
 
                 types.forEach(type -> Util.safePut(typeFileMap, type, file));
-
-                // 添加头部信息到文件
-                String header = Constant.REPO;
-                FileUtil.appendUtf8String(header + "\n", file); // 追加模式写入头部信息
-                if (log.isDebugEnabled()) {
-                    log.debug("Header appended to {}: {}", fileName, header);
-                }
             });
         }
+
 
         // 使用布隆过滤器实现去重
         BloomFilter<String> filter = BloomFilter.create(Funnels.stringFunnel(StandardCharsets.UTF_8), 1000000);
