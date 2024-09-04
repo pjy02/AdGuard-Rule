@@ -15,6 +15,8 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.io.File;
+import java.time.Instant; // 导入 Instant 类
+import java.time.Duration; // 导入 Duration 类
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.fordes.adg.rule.config.OutputConfig;
@@ -112,7 +114,7 @@ public class AdgRuleApplication implements ApplicationRunner {
                 ThreadUtil.safeSleep(1000);
             } else {
                 Instant endTime = Instant.now(); // 记录结束时间
-                long durationMillis = java.time.Duration.between(startTime, endTime).toMillis();
+                long durationMillis = Duration.between(startTime, endTime).toMillis();
                 log.info("Done! {} ms", durationMillis);
                 System.exit(0);
             }
