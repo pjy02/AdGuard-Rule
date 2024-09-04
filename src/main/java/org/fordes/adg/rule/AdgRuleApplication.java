@@ -1,6 +1,7 @@
 package org.fordes.adg.rule;
 
 import cn.hutool.core.date.DateUtil;
+import cn.hutool.core.date.TimeInterval;
 import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.map.MapUtil;
 import cn.hutool.core.thread.ExecutorBuilder;
@@ -52,19 +53,17 @@ public class AdgRuleApplication implements ApplicationRunner {
         // 初始化，根据配置建立文件
         final Map<RuleType, Set<File>> typeFileMap = MapUtil.newHashMap();
         if (!outputConfig.getFiles().isEmpty()) {
-            outputConfig.getFiles().forEach((baseFileName, types) -> {
-                // 构建完整的文件名
-                String fileName = baseFileName + ".txt";
-                File file = Util.createFile(outputConfig.getPath() + File.separator + fileName);
+            outputConfig.getFiles().forEach((fileName, types) -> {
+                File file = Util.createFile(outputConfig.getPath() + File.separator + fileName + ".txt");
 
                 // 获取不带扩展名的文件名
-                String baseName = FileUtil.mainName(fileName);
+                String baseFileName = FileUtil.mainName(fileName);
 
                 // 获取当前时间作为更新时间
                 String currentTime = DateUtil.now();
 
                 // 添加标题行到文件
-                String titleLine = TITLE_TEMPLATE.replace("{}", baseName);
+                String titleLine = TITLE_TEMPLATE.replace("{}", baseFileName);
                 FileUtil.writeUtf8String(titleLine + "\n", file); // 写入标题行
                 if (log.isDebugEnabled()) {
                     log.debug("Title line written to {}: {}", fileName, titleLine);
