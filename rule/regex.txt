@@ -178,8 +178,6 @@ analytics-*.aasaam.com
 ||mon*-*.tiktokv.us^
 ||bi-eventtracker-*.amazonaws.com^
 ||pxl-*.ozone.ru^
-||asd8900.oss-*.aliyuncs.com^
-||ky891.oss-*.aliyuncs.com^
 ||ads-*-nfl.yinzcam.com^
 ||ads*.production-public.tubi.io^
 ||cnt.yeptube.
@@ -366,9 +364,7 @@ analytics-*.aasaam.com
 ||api*.batmobil.net^
 ||under-click.
 ||log-*.epicdn.me^
-||zhizhizhizhi.oss-*.aliyuncs.com^
 ||adcounter*.uptolike.ru^
-||tupian888.*.bcebos.com^
 ||metric*.rediff.com^
 ||ad-*.amazonaws.com^
 ||tracker.twenga.
@@ -455,7 +451,6 @@ analytics-*.aasaam.com
 ||collector*.ex.co^
 ||poptraf.
 ||union*.365inews.com^
-||vns86.oss-*.aliyuncs.com^
 ||v*.sitecounter.site^
 ||da.hornbach.*^
 ||appsflyer*.*^
@@ -551,7 +546,12 @@ analytics-*.aasaam.com
 ||tracker*.qcloud.com^
 ||adwords*.*^
 728x90.jpg|
+||zhizhizhizhi.oss-*.aliyuncs.com^
+||tupian888.*.bcebos.com^
 ||acookie.*.gif?
+||vns86.oss-*.aliyuncs.com^
+||asd8900.oss-*.aliyuncs.com^
+||ky891.oss-*.aliyuncs.com^
 ||ad*.aginomoto.com
 ||pangolin-sdk-toutiao*.com^
 ||aj2*.online^
@@ -606,6 +606,7 @@ analytics-*.aasaam.com
 ||adsfilebssdlbig.*.kugou.com^
 ||gads*s.com^
 ||aj1*.xyz^
+||util-*.simply-hentai.com^
 ||geotargetly-api-*.com^
 ||collector-*.px-cloud.net^
 ||fads*z.com^
@@ -642,7 +643,6 @@ rgmechanicsgames.com*VPN.exe
 @@||cdn*.porn300.com^
 ||gamenguide.com*adbk
 ||counter*.stat.ovh^
-||util-*.simply-hentai.com^
 ||ads*.dfiles.ru^
 ||centent.streamp1ay.
 ||ads.livetv*.me^
