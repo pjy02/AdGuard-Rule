@@ -44,7 +44,7 @@ public class AdgRuleApplication implements ApplicationRunner {
             .build();
 
     private static final String TITLE_TEMPLATE = "! Title: {}";
-    private static final String UPDATE = "# Update time: {}\r\n";
+    private static final String UPDATE = "! Update time: {}\r\n";
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
