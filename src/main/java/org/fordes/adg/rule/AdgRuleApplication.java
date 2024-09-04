@@ -1,6 +1,7 @@
 package org.fordes.adg.rule;
 
 import cn.hutool.core.date.DateUtil;
+import cn.hutool.core.date.TimeInterval;
 import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.map.MapUtil;
 import cn.hutool.core.thread.ExecutorBuilder;
@@ -15,8 +16,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.io.File;
-import java.time.Instant; // 导入 Instant 类
-import java.time.Duration; // 导入 Duration 类
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.fordes.adg.rule.config.OutputConfig;
@@ -44,31 +43,24 @@ public class AdgRuleApplication implements ApplicationRunner {
             .setHandler(new ThreadPoolExecutor.CallerRunsPolicy())
             .build();
 
-    private static final String TITLE_TEMPLATE = "! Title: {}";
-    private static final String UPDATE = "! Update time: {}\r\n";
-
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        Instant startTime = Instant.now(); // 记录开始时间
+        TimeInterval interval = DateUtil.timer();
 
         // 初始化，根据配置建立文件
         final Map<RuleType, Set<File>> typeFileMap = MapUtil.newHashMap();
         if (!outputConfig.getFiles().isEmpty()) {
             outputConfig.getFiles().forEach((fileName, types) -> {
-                File file = Util.createFile(outputConfig.getPath() + File.separator + fileName + ".txt");
-
-                // 获取不带扩展名的文件名
-                String baseFileName = FileUtil.mainName(fileName);
-
-                // 获取当前时间作为更新时间
-                String currentTime = DateUtil.now();
+                File file = Util.createFile(outputConfig.getPath() + File.separator + fileName);
 
                 // 添加标题行到文件
-                String titleLine = TITLE_TEMPLATE.replace("{}", baseFileName);
+                String titleLine = Constant.TITLE_TEMPLATE.replace("{}", fileName);
                 FileUtil.writeUtf8String(titleLine + "\n", file); // 写入标题行
                 if (log.isDebugEnabled()) {
                     log.debug("Title line written to {}: {}", fileName, titleLine);
                 }
+
+                types.forEach(type -> Util.safePut(typeFileMap, type, file));
 
                 // 添加头部信息到文件
                 String header = Constant.REPO;
@@ -76,15 +68,6 @@ public class AdgRuleApplication implements ApplicationRunner {
                 if (log.isDebugEnabled()) {
                     log.debug("Header appended to {}: {}", fileName, header);
                 }
-
-                // 添加更新时间到文件
-                String updateTime = UPDATE.replace("{}", currentTime);
-                FileUtil.appendUtf8String(updateTime, file); // 追加模式写入更新时间
-                if (log.isDebugEnabled()) {
-                    log.debug("Update time written to {}: {}", fileName, updateTime);
-                }
-
-                types.forEach(type -> Util.safePut(typeFileMap, type, file));
             });
         }
 
@@ -113,9 +96,7 @@ public class AdgRuleApplication implements ApplicationRunner {
             if (executor.getActiveCount() > 0) {
                 ThreadUtil.safeSleep(1000);
             } else {
-                Instant endTime = Instant.now(); // 记录结束时间
-                long durationMillis = Duration.between(startTime, endTime).toMillis();
-                log.info("Done! {} ms", durationMillis);
+                log.info("Done! {} ms", interval.intervalMs());
                 System.exit(0);
             }
         }
