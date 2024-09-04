@@ -43,6 +43,9 @@ public class AdgRuleApplication implements ApplicationRunner {
             .setHandler(new ThreadPoolExecutor.CallerRunsPolicy())
             .build();
 
+    private static final String TITLE_TEMPLATE = "! Title: {}";
+    private static final String UPDATE = "# Update time: {}\r\n";
+
     @Override
     public void run(ApplicationArguments args) throws Exception {
         TimeInterval interval = DateUtil.timer();
@@ -53,11 +56,24 @@ public class AdgRuleApplication implements ApplicationRunner {
             outputConfig.getFiles().forEach((fileName, types) -> {
                 File file = Util.createFile(outputConfig.getPath() + File.separator + fileName);
 
+                // 获取不带扩展名的文件名
+                String baseFileName = FileUtil.mainName(fileName);
+
+                // 获取当前时间作为更新时间
+                String currentTime = DateUtil.now();
+
                 // 添加标题行到文件
-                String titleLine = Constant.TITLE_TEMPLATE.replace("{}", fileName);
+                String titleLine = TITLE_TEMPLATE.replace("{}", baseFileName);
                 FileUtil.writeUtf8String(titleLine + "\n", file); // 写入标题行
                 if (log.isDebugEnabled()) {
                     log.debug("Title line written to {}: {}", fileName, titleLine);
+                }
+
+                // 添加更新时间到文件
+                String updateTime = UPDATE.replace("{}", currentTime);
+                FileUtil.appendUtf8String(updateTime, file); // 追加模式写入更新时间
+                if (log.isDebugEnabled()) {
+                    log.debug("Update time written to {}: {}", fileName, updateTime);
                 }
 
                 types.forEach(type -> Util.safePut(typeFileMap, type, file));
