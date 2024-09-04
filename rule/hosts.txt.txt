@@ -50,7 +50,7 @@
 # 每12小时同步一次、如有误杀、请手动解除
 
 
-! Update time: 2024-09-05 00:00:53
+! Update time: 2024-09-05 00:03:42
 0.0.0.0 seed.nimiq.jp
 0.0.0.0 de-mi-nis-ner.info
 0.0.0.0 ninaning.com
