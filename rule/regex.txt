@@ -552,7 +552,6 @@ analytics-*.aasaam.com
 ||adwords*.*^
 728x90.jpg|
 ||acookie.*.gif?
-||ad*.aginomoto.com
 ||pangolin-sdk-toutiao*.com^
 ||aj2*.online^
 ||ping*.qq.com^
@@ -630,6 +629,7 @@ analytics-*.aasaam.com
 ||firebaselogging-*.googleapis.com^
 ||gads*z.com^
 ||ad.*.xiaomi.com^
+||ad*.aginomoto.com
 ||ads*.opensubtitles.org^
 rgmechanicsgames.com*VPN.exe
 ||ads*.dfiles.eu^
