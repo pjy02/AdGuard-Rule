@@ -15,7 +15,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ThreadPoolExecutor;
-import java.io.File; // 添加这一行
+import java.io.File;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.fordes.adg.rule.config.OutputConfig;
@@ -66,9 +66,9 @@ public class AdgRuleApplication implements ApplicationRunner {
                 // 添加头部信息到文件
                 try {
                     String header = Constant.REPO;
-                    FileUtil.writeUtf8String(header + "\n", file, true); // 追加模式写入头部信息
+                    FileUtil.appendUtf8String(header + "\n", file); // 追加模式写入头部信息
                 } catch (IOException e) {
-                    log.error("Failed to write header to {}: {}", fileName, e.getMessage());
+                    log.error("Failed to append header to {}: {}", fileName, e.getMessage());
                 }
             });
         }
