@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2024-10-17 09:00:50
+! Update time: 2024-10-17 20:24:57
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -170,6 +170,7 @@ analytics-*.aasaam.com
 ||flipflapflo.
 ||gonews*.net^
 ||real*traf.ru^
+||ax.*.ifeng.com^
 ||f-log-*.grammarly.io^
 ||wa.gmx.
 ||analytics*.clickdimensions.com^
@@ -180,9 +181,11 @@ analytics-*.aasaam.com
 ||ads*.production-public.tubi.io^
 ||cnt.yeptube.
 ||iptracker-lb-*.amazonaws.com^
+||sax*.sina.
 ||cpng.lol.^
 ||alishop*.ru^
 ||bd*-ys.km.com^
+||pijama.*.elasticbeanstalk.com^
 ||ad*.wisenut.co.kr^
 ||pixel*.adswizz.com
 ||ce-global-track-*.amazonaws.com^
@@ -208,6 +211,7 @@ analytics-*.aasaam.com
 ||log-collector.shopee.
 ||report*.appmetrica.webvisor.com^
 ||ad*.tmgrup.com.tr^
+||impservice*.yodao.com^
 ||beacons*.gvt3.com^
 ||goodadvert.
 ||ads*.bojijulebu.com^
@@ -246,6 +250,7 @@ analytics-*.aasaam.com
 ||aff*.kolektiva.net^
 ||adx-*.dbankedge.cn^
 ||pixel-*.rubiconproject.com^
+||js*.abolezi.com^
 ||cdn-adn-*.rayjump.com^
 ||track.tiara.
 ||orbit*.lun.ua^
@@ -360,6 +365,7 @@ analytics-*.aasaam.com
 ||icq-window.
 ||geoloc*.geovisite.ovh^
 ||icqwindow.
+||sam*.baby-kingdom.com^
 ||adcs-*.myappsget.com^
 ||cnt.winporn.
 ||t*.zcvh.net^
@@ -412,6 +418,7 @@ analytics-*.aasaam.com
 ||analytics*.carambo.la^
 ||snowplow-collector-*.amazonaws.com^
 ||aan.amazon.*^
+||ya*.dwstatic.com^
 ||ms*.applvn.com^
 ||iad-*.braze.com^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
@@ -433,19 +440,13 @@ analytics-*.aasaam.com
 ||poptraf.
 ||union*.365inews.com^
 ||v*.sitecounter.site^
-||sax*.sina.
 ||38.33.15.*.gif
+728x90.jpg|
 ||zhizhizhizhi.oss-*.aliyuncs.com^
 ||67.21.92.*.gif
 ||tupian888.*.bcebos.com^
-||impservice*.yodao.com^
-728x90.jpg|
-||ya*.dwstatic.com^
-||ax.*.ifeng.com^
 ||121.204.246.*.gif
-||js*.abolezi.com^
 ||acookie.*.gif?
-||sam*.baby-kingdom.com^
 ||107.167.16.*.gif
 ||vns86.oss-*.aliyuncs.com^
 ||asd8900.oss-*.aliyuncs.com^
@@ -556,28 +557,6 @@ analytics-*.aasaam.com
 ||gg*.51cto.com^
 ||tracker*.qcloud.com^
 ||ad*.aginomoto.com
-||ads*.opensubtitles.org^
-rgmechanicsgames.com*VPN.exe
-||pijama.*.elasticbeanstalk.com^
-||ads*.dfiles.eu^
-@@||adobeid-*.services.adobe.com^
-||ads*.depositfiles.com^
-||ads*.depositfiles.org^
-||fapnado.*.php|
-||itechpost.com*adbk
-||rgfftupf.
-@@||cdn*.porn300.com^
-||gamenguide.com*adbk
-||counter*.stat.ovh^
-||util-*.simply-hentai.com^
-||ads*.dfiles.ru^
-||centent.streamp1ay.
-||ads.livetv*.me^
-||142.91.159.
-||fxhpaoxqyajvmdg.
-||prebid-*.rubiconproject.com^
-||cintent.streanplay.
-Banner468x60
 ||pangolin-sdk-toutiao*.com^
 ||aj2*.online^
 ||ping*.qq.com^
@@ -659,6 +638,27 @@ Banner468x60
 ||firebaselogging-*.googleapis.com^
 ||gads*z.com^
 ||ad.*.xiaomi.com^
+||ads*.opensubtitles.org^
+rgmechanicsgames.com*VPN.exe
+||ads*.dfiles.eu^
+@@||adobeid-*.services.adobe.com^
+||ads*.depositfiles.com^
+||ads*.depositfiles.org^
+||fapnado.*.php|
+||itechpost.com*adbk
+||rgfftupf.
+@@||cdn*.porn300.com^
+||gamenguide.com*adbk
+||counter*.stat.ovh^
+||util-*.simply-hentai.com^
+||ads*.dfiles.ru^
+||centent.streamp1ay.
+||ads.livetv*.me^
+||142.91.159.
+||fxhpaoxqyajvmdg.
+||prebid-*.rubiconproject.com^
+||cintent.streanplay.
+Banner468x60
 <script>
             pageOptions
     xhr.send();
