@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2024-10-25 20:24:55
+! Update time: 2024-10-26 08:59:39
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -179,6 +179,8 @@ analytics-*.aasaam.com
 ||bi-eventtracker-*.amazonaws.com^
 ||pxl-*.ozone.ru^
 ||mon*-*.tiktokv.us^
+||asd8900.oss-*.aliyuncs.com^
+||ky891.oss-*.aliyuncs.com^
 ||ads-*-nfl.yinzcam.com^
 ||ads*.production-public.tubi.io^
 ||cnt.yeptube.
@@ -361,7 +363,9 @@ analytics-*.aasaam.com
 ||api*.batmobil.net^
 ||under-click.
 ||log-*.epicdn.me^
+||zhizhizhizhi.oss-*.aliyuncs.com^
 ||adcounter*.uptolike.ru^
+||tupian888.*.bcebos.com^
 ||metric*.rediff.com^
 ||ad-*.amazonaws.com^
 ||tnc*.zijieapi.com^
@@ -447,7 +451,10 @@ analytics-*.aasaam.com
 ||collector*.ex.co^
 ||poptraf.
 ||union*.365inews.com^
+||vns86.oss-*.aliyuncs.com^
 ||v*.sitecounter.site^
+728x90.jpg|
+||acookie.*.gif?
 ||da.hornbach.*^
 ||cloudservice*.kingsoft-office-service.com^
 ||bj*.9669.cn^
@@ -552,13 +559,6 @@ analytics-*.aasaam.com
 @@||tongji.*kuwo.cn^
 ||gg*.51cto.com^
 ||tracker*.qcloud.com^
-728x90.jpg|
-||zhizhizhizhi.oss-*.aliyuncs.com^
-||tupian888.*.bcebos.com^
-||acookie.*.gif?
-||vns86.oss-*.aliyuncs.com^
-||asd8900.oss-*.aliyuncs.com^
-||ky891.oss-*.aliyuncs.com^
 ||ad*.aginomoto.com
 ||pangolin-sdk-toutiao*.com^
 ||aj2*.online^
@@ -614,7 +614,6 @@ analytics-*.aasaam.com
 ||gads*s.com^
 ||aj1*.xyz^
 ||chat*-ce.chatdealer.jp^
-||util-*.simply-hentai.com^
 ||geotargetly-api-*.com^
 ||collector-*.px-cloud.net^
 ||fads*z.com^
@@ -651,6 +650,7 @@ rgmechanicsgames.com*VPN.exe
 @@||cdn*.porn300.com^
 ||gamenguide.com*adbk
 ||counter*.stat.ovh^
+||util-*.simply-hentai.com^
 ||ads*.dfiles.ru^
 ||centent.streamp1ay.
 ||ads.livetv*.me^
