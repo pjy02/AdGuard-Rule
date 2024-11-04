@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2024-11-03 20:22:13
+! Update time: 2024-11-04 09:03:12
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -272,6 +272,7 @@ analytics-*.aasaam.com
 ||cl*.k5a.io^
 ||mautic.*.vn^
 ||ad*.nexage.com^
+||analytics.ahrefs.
 ||s*.adduplex.com^
 ||mon*-platform-*.tiktokv.com^
 ||collect-elb-*.amazonaws.com^
