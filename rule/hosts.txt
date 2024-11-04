@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2024-11-04 09:03:12
+! Update time: 2024-11-04 20:26:18
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -10509,6 +10509,7 @@
 0.0.0.0 mybinaryoptionsrobot.com
 0.0.0.0 vitalitymax.1.p2l.info
 0.0.0.0 zendictees.fr
+0.0.0.0 canadapost.postescanadad.xyz
 0.0.0.0 track.msadcenter.pcp.com
 0.0.0.0 engage.everyone.net
 0.0.0.0 shorte.st
