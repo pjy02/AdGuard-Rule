@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2024-11-12 20:25:21
+! Update time: 2024-11-13 09:00:47
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -3493,6 +3493,7 @@
 0.0.0.0 svd2.adtlgc.com
 0.0.0.0 enerweb.oewabox.at
 0.0.0.0 gcirm.customcoupon.com
+0.0.0.0 rapid-glade-cde8.asoumare042024.workers.dev
 0.0.0.0 wi-fitechnology.uk.intellitxt.com
 0.0.0.0 stats.fairmont.com
 0.0.0.0 union.baidu.com
