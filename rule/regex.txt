@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2024-11-13 20:25:11
+! Update time: 2024-11-14 09:00:58
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -125,6 +125,19 @@ advertisers.js|
 ||yazhouyu.
 ||advertise.
 ||ap*.pl520.com^
+||icast.
+||gg.
+||union.
+||adpic.
+||cnzz.
+||sax.sina.
+||biz5.
+||xmindchina.
+||admaster.
+||googleadservices.
+||saxs.sina.
+||adsame.
+||onetrust.
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
 ||adserver*.euroweeklynews.com^
@@ -256,6 +269,7 @@ analytics-*.aasaam.com
 ||piwik.*.vn^
 ||letssex.
 ||production-adserver-*.amazonaws.com^
+||sonar*.xy.fbcdn.net^
 ||cl*.k5a.io^
 ||mautic.*.vn^
 ||ad*.nexage.com^
@@ -277,6 +291,7 @@ analytics-*.aasaam.com
 ||videoclick.
 ||batchlogging*-eu.truecaller.com^
 ||stats-*.p2pnow.ru^
+||broredir*s.site^
 ||admulti.
 ||eum*.instana.io^
 ||report.*.gbqofs.io^
@@ -440,19 +455,6 @@ analytics-*.aasaam.com
 ||union*.365inews.com^
 ||vns86.oss-*.aliyuncs.com^
 ||v*.sitecounter.site^
-||icast.
-||gg.
-||union.
-||adpic.
-||cnzz.
-||sax.sina.
-||biz5.
-||xmindchina.
-||admaster.
-||googleadservices.
-||saxs.sina.
-||adsame.
-||onetrust.
 ||da.hornbach.*^
 ||cloudservice*.kingsoft-office-service.com^
 ||bj*.9669.cn^
@@ -614,6 +616,7 @@ analytics-*.aasaam.com
 ||gads*s.com^
 ||aj1*.xyz^
 ||chat*-ce.chatdealer.jp^
+||util-*.simply-hentai.com^
 ||geotargetly-api-*.com^
 ||collector-*.px-cloud.net^
 ||fads*z.com^
@@ -650,7 +653,6 @@ rgmechanicsgames.com*VPN.exe
 @@||cdn*.porn300.com^
 ||gamenguide.com*adbk
 ||counter*.stat.ovh^
-||util-*.simply-hentai.com^
 ||ads*.dfiles.ru^
 ||centent.streamp1ay.
 ||ads.livetv*.me^
@@ -659,4 +661,33 @@ rgmechanicsgames.com*VPN.exe
 ||prebid-*.rubiconproject.com^
 ||cintent.streanplay.
 Banner468x60
+<script>
+            pageOptions
+    xhr.send();
+            } else {
+h1 {
+	}
+        loadFeed(...getLoadFeedArguments());
+    function getLoadFeedArguments() {
+                arguments.push(this[possibleArguments[i]]);
+        }
+};
+                }
+                console.log(JSON.parse(xhr.responseText))
+<style>
+            2024 Copyright.  All Rights Reserved.
+        ];
+<head>
+    Privacy Policy
+			Buy this domain.
+    }
+                    return;
+    };
+    <script>
+<!DOCTYPE html>
+body {
+                console.log('There was a problem with the request.');
+            }
+        return arguments;
+}
 ||imgpfx.arenavision.
