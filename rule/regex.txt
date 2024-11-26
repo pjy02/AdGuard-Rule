@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2024-11-25 20:27:25
+! Update time: 2024-11-26 09:04:47
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -70,7 +70,6 @@ MRelateFeedAd
 ||sell*.etlong.com^
 ||smartads.
 ||adshare.
-||dm-*.toutiao.com^
 ||player.letvcdn.com*.swf|
 ||d*.wanzhuang.com^
 ||adstats.
@@ -458,6 +457,7 @@ analytics-*.aasaam.com
 ||v*.sitecounter.site^
 ||da.hornbach.*^
 ||cloudservice*.kingsoft-office-service.com^
+||dm-*.toutiao.com^
 ||bj*.9669.cn^
 ||ad-*.net^
 ||admaster*.*^
