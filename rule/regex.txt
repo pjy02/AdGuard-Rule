@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2024-11-29 09:05:36
+! Update time: 2024-11-29 20:26:51
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -583,6 +583,7 @@ analytics-*.aasaam.com
 ||w*.*skwai.com^
 ||ifengad.*.ifeng.com^
 ||bjkedv*.xyz^
+||ads*.dfiles.ru^
 ||p26.gejulm*.com^
 ||adservice.google.*^
 ||log*-applog-*.tiktokv.com^
@@ -591,6 +592,8 @@ analytics-*.aasaam.com
 ||zazgiyoh*.world^
 ||collector-*.us.tvsquared.com^
 ||zabdybod*.club^
+||ads*.depositfiles.com^
+||ads*.depositfiles.org^
 ||hads*s.com^
 ||api.*.hismarttv.com^
 ||zazgbqg*.xyz^
@@ -613,6 +616,7 @@ analytics-*.aasaam.com
 ||hbbtv.*.de^
 ||sads*z.com^
 ||zcchyr*.xyz^
+||ads*.dfiles.eu^
 ||ads.*.yahoo.com^
 ||js.*2023*.live^
 ||mobileoffers-*-download.com^
@@ -623,6 +627,7 @@ analytics-*.aasaam.com
 ||gads*s.com^
 ||aj1*.xyz^
 ||chat*-ce.chatdealer.jp^
+||util-*.simply-hentai.com^
 ||geotargetly-api-*.com^
 ||collector-*.px-cloud.net^
 ||fads*z.com^
@@ -649,18 +654,13 @@ analytics-*.aasaam.com
 ||ad.*.xiaomi.com^
 ||ads*.opensubtitles.org^
 rgmechanicsgames.com*VPN.exe
-||ads*.dfiles.eu^
 @@||adobeid-*.services.adobe.com^
-||ads*.depositfiles.com^
-||ads*.depositfiles.org^
 ||fapnado.*.php|
 ||itechpost.com*adbk
 ||rgfftupf.
 @@||cdn*.porn300.com^
 ||gamenguide.com*adbk
 ||counter*.stat.ovh^
-||util-*.simply-hentai.com^
-||ads*.dfiles.ru^
 ||centent.streamp1ay.
 ||ads.livetv*.me^
 ||142.91.159.
@@ -669,32 +669,3 @@ rgmechanicsgames.com*VPN.exe
 ||cintent.streanplay.
 Banner468x60
 ||imgpfx.arenavision.
-<script>
-            pageOptions
-    xhr.send();
-            } else {
-h1 {
-	}
-        loadFeed(...getLoadFeedArguments());
-    function getLoadFeedArguments() {
-                arguments.push(this[possibleArguments[i]]);
-        }
-};
-                }
-                console.log(JSON.parse(xhr.responseText))
-<style>
-            2024 Copyright.  All Rights Reserved.
-        ];
-<head>
-    Privacy Policy
-			Buy this domain.
-    }
-                    return;
-    };
-    <script>
-<!DOCTYPE html>
-body {
-                console.log('There was a problem with the request.');
-            }
-        return arguments;
-}
