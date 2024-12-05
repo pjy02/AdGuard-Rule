@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2024-12-04 20:27:39
+! Update time: 2024-12-05 09:07:19
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -3432,6 +3432,7 @@
 0.0.0.0 buy-vicodin-online.seumala.net
 0.0.0.0 warda.oewabox.at
 0.0.0.0 ads.smowtion.com
+0.0.0.0 declarateenquiebra.cl
 0.0.0.0 www.skegness.net
 0.0.0.0 mobrevflwms.com
 0.0.0.0 web-scanner.co
