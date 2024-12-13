@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2024-12-12 20:28:09
+! Update time: 2024-12-13 09:08:01
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -124,6 +124,19 @@ advertisers.js|
 ||yazhouyu.
 ||advertise.
 ||ap*.pl520.com^
+||icast.
+||gg.
+||union.
+||adpic.
+||cnzz.
+||sax.sina.
+||biz5.
+||xmindchina.
+||admaster.
+||googleadservices.
+||saxs.sina.
+||adsame.
+||onetrust.
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
 ||adserver*.euroweeklynews.com^
@@ -450,19 +463,6 @@ analytics-*.aasaam.com
 ||union*.365inews.com^
 ||vns86.oss-*.aliyuncs.com^
 ||v*.sitecounter.site^
-||onetrust.
-||icast.
-||gg.
-||union.
-||adpic.
-||cnzz.
-||sax.sina.
-||biz5.
-||xmindchina.
-||admaster.
-||googleadservices.
-||saxs.sina.
-||adsame.
 ||da.hornbach.*^
 ||cloudservice*.kingsoft-office-service.com^
 ||dm-*.toutiao.com^
@@ -570,13 +570,6 @@ analytics-*.aasaam.com
 ||tracker*.qcloud.com^
 728x90.jpg|
 ||acookie.*.gif?
-					 All rights reserved
-						No need to install different codecs all the time when using the player.<br>Supports OpenCodec so users can easily add whatever codecs they want.
-PotPlayer.home.setLocale("en");
-	<head>
-PotPlayer.home.init();
-<body>
-						<ul>
 ||ad*.aginomoto.com
 ||pangolin-sdk-toutiao*.com^
 ||aj2*.online^
@@ -677,6 +670,7 @@ rgmechanicsgames.com*VPN.exe
 ||prebid-*.rubiconproject.com^
 ||cintent.streanplay.
 Banner468x60
+||imgpfx.arenavision.
 <script>
             pageOptions
     xhr.send();
@@ -706,4 +700,3 @@ body {
             }
         return arguments;
 }
-||imgpfx.arenavision.
