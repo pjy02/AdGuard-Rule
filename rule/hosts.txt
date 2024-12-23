@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2024-12-23 09:02:56
+! Update time: 2024-12-23 20:25:17
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -8791,6 +8791,7 @@
 0.0.0.0 www.pitakchon.com
 0.0.0.0 mail.cyberh.fr
 0.0.0.0 t-support.net
+0.0.0.0 costco-rewardsaccount1.com
 0.0.0.0 reload-url.net
 0.0.0.0 mmstat.com
 0.0.0.0 publishing.kalooga.com
