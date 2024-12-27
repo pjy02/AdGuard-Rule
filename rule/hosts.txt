@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2024-12-26 20:24:48
+! Update time: 2024-12-27 09:01:20
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -6339,6 +6339,7 @@
 0.0.0.0 microsoft-online-en-us.com
 0.0.0.0 pipslab.nl
 0.0.0.0 track.did-it.com
+0.0.0.0 go.rightdailyfeed.com
 0.0.0.0 tracker.bt.uol.com.br
 0.0.0.0 logv25.xiti.com
 0.0.0.0 bornprix.fr
