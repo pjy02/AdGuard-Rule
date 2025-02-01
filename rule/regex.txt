@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-02-01 09:03:50
+! Update time: 2025-02-01 20:21:31
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -191,6 +191,7 @@ analytics-*.aasaam.com
 ||cpng.lol.^
 ||alishop*.ru^
 ||67.21.92.*.gif
+||pijama.*.elasticbeanstalk.com^
 ||ad*.wisenut.co.kr^
 ||pixel*.adswizz.com
 ||ali-bj-pcdn-*.biliapi.net^
@@ -575,6 +576,7 @@ analytics-*.aasaam.com
 ||tracker*.qcloud.com^
 728x90.jpg|
 ||acookie.*.gif?
+||ad*.aginomoto.com
 ||pangolin-sdk-toutiao*.com^
 ||aj2*.online^
 ||ping*.qq.com^
@@ -589,6 +591,7 @@ analytics-*.aasaam.com
 ||w*.*skwai.com^
 ||ifengad.*.ifeng.com^
 ||bjkedv*.xyz^
+||ads*.dfiles.ru^
 ||p26.gejulm*.com^
 ||adservice.google.*^
 ||log*-applog-*.tiktokv.com^
@@ -597,6 +600,8 @@ analytics-*.aasaam.com
 ||zazgiyoh*.world^
 ||collector-*.us.tvsquared.com^
 ||zabdybod*.club^
+||ads*.depositfiles.com^
+||ads*.depositfiles.org^
 ||hads*s.com^
 ||zazgbqg*.xyz^
 ||aj3*.bid^
@@ -617,6 +622,7 @@ analytics-*.aasaam.com
 ||zbc6hy*.live^
 ||sads*z.com^
 ||zcchyr*.xyz^
+||ads*.dfiles.eu^
 ||ads.*.yahoo.com^
 ||js.*2023*.live^
 ||mobileoffers-*-download.com^
@@ -626,6 +632,7 @@ analytics-*.aasaam.com
 ||gads*s.com^
 ||aj1*.xyz^
 ||chat*-ce.chatdealer.jp^
+||util-*.simply-hentai.com^
 ||geotargetly-api-*.com^
 ||collector-*.px-cloud.net^
 ||fads*z.com^
@@ -650,22 +657,17 @@ analytics-*.aasaam.com
 ||firebaselogging-*.googleapis.com^
 ||gads*z.com^
 ||ad.*.xiaomi.com^
+||imgpfx.arenavision.
 ||reachableads-av.*.amazonaws.com^
 ||ads*.opensubtitles.org^
 rgmechanicsgames.com*VPN.exe
-||pijama.*.elasticbeanstalk.com^
-||ads*.dfiles.eu^
 @@||adobeid-*.services.adobe.com^
-||ads*.depositfiles.com^
-||ads*.depositfiles.org^
 ||fapnado.*.php|
 ||itechpost.com*adbk
 ||rgfftupf.
 @@||cdn*.porn300.com^
 ||gamenguide.com*adbk
 ||counter*.stat.ovh^
-||util-*.simply-hentai.com^
-||ads*.dfiles.ru^
 ||centent.streamp1ay.
 ||ads.livetv*.me^
 ||142.91.159.
@@ -673,8 +675,6 @@ rgmechanicsgames.com*VPN.exe
 ||prebid-*.rubiconproject.com^
 ||cintent.streanplay.
 Banner468x60
-||ad*.aginomoto.com
-||imgpfx.arenavision.
 <script>
             pageOptions
     xhr.send();
