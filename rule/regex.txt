@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-02-11 20:25:24
+! Update time: 2025-02-12 09:01:10
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -602,6 +602,7 @@ analytics-*.aasaam.com
 ||w*.*skwai.com^
 ||ifengad.*.ifeng.com^
 ||bjkedv*.xyz^
+||ads*.dfiles.ru^
 ||p26.gejulm*.com^
 ||adservice.google.*^
 ||log*-applog-*.tiktokv.com^
@@ -610,6 +611,8 @@ analytics-*.aasaam.com
 ||zazgiyoh*.world^
 ||collector-*.us.tvsquared.com^
 ||zabdybod*.club^
+||ads*.depositfiles.com^
+||ads*.depositfiles.org^
 ||hads*s.com^
 ||zazgbqg*.xyz^
 ||aj3*.bid^
@@ -629,6 +632,7 @@ analytics-*.aasaam.com
 ||apple.com-*.live^
 ||zbc6hy*.live^
 ||zcchyr*.xyz^
+||ads*.dfiles.eu^
 ||ads.*.yahoo.com^
 ||js.*2023*.live^
 ||zaqlovh*.xyz^
@@ -666,17 +670,13 @@ analytics-*.aasaam.com
 ||reachableads-av.*.amazonaws.com^
 ||ads*.opensubtitles.org^
 rgmechanicsgames.com*VPN.exe
-||ads*.dfiles.eu^
 @@||adobeid-*.services.adobe.com^
-||ads*.depositfiles.com^
-||ads*.depositfiles.org^
 ||fapnado.*.php|
 ||itechpost.com*adbk
 ||rgfftupf.
 @@||cdn*.porn300.com^
 ||gamenguide.com*adbk
 ||counter*.stat.ovh^
-||ads*.dfiles.ru^
 ||centent.streamp1ay.
 ||ads.livetv*.me^
 ||142.91.159.
@@ -685,7 +685,6 @@ rgmechanicsgames.com*VPN.exe
 ||cintent.streanplay.
 Banner468x60
 ||ad*.aginomoto.com
-||imgpfx.arenavision.
 <script>
             pageOptions
     xhr.send();
@@ -715,3 +714,4 @@ body {
             }
         return arguments;
 }
+||imgpfx.arenavision.
