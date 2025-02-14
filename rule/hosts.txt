@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-02-13 20:25:13
+! Update time: 2025-02-14 09:01:17
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -9017,6 +9017,7 @@
 0.0.0.0 clearonclick.com
 0.0.0.0 c4.myway.com
 0.0.0.0 h2.helenrosi.com
+0.0.0.0 cosi.iprive.net
 0.0.0.0 w128.hitbox.com
 0.0.0.0 tewxda71.secure.ne.jp
 0.0.0.0 homehre.ifrance.com
