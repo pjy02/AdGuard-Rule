@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-03-10 08:54:46
+! Update time: 2025-03-10 20:27:49
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -577,7 +577,6 @@ analytics-*.aasaam.com
 ||aan.amazon.*^
 ||ms*.applvn.com^
 ||thegreatesthits.
-||iad-*.braze.com^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||tracking-*.trnox.com^
 ||snowplow-collector.
@@ -656,6 +655,7 @@ analytics-*.aasaam.com
 ||geotargetly-api-*.com^
 ||collector-*.px-cloud.net^
 ||fads*z.com^
+||iad-*.braze.com^
 ||prod.*.publishers.advertising.a2z.com^
 ||bjsvp*.space^
 ||display-ad-*.kgslb.com^
