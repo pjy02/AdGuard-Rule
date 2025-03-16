@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-03-15 20:23:40
+! Update time: 2025-03-16 09:09:26
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -578,7 +578,6 @@ analytics-*.aasaam.com
 ||aan.amazon.*^
 ||ms*.applvn.com^
 ||thegreatesthits.
-||iad-*.braze.com^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||tracking-*.trnox.com^
 ||snowplow-collector.
@@ -613,7 +612,6 @@ analytics-*.aasaam.com
 ||ifengad.*.ifeng.com^
 ||ad*.on.cc^
 ||bjkedv*.xyz^
-||ads*.dfiles.ru^
 ||p26.gejulm*.com^
 ||adservice.google.*^
 ||ad.kisstvshow.*^
@@ -622,8 +620,6 @@ analytics-*.aasaam.com
 ||zazgiyoh*.world^
 ||collector-*.us.tvsquared.com^
 ||zabdybod*.club^
-||ads*.depositfiles.com^
-||ads*.depositfiles.org^
 ||hads*s.com^
 ||zazgbqg*.xyz^
 ||aj3*.bid^
@@ -649,7 +645,6 @@ analytics-*.aasaam.com
 ||qn-*pcdn.cdn.msstatic.com^
 ||ts-p2p*pull*com^
 ||zcchyr*.xyz^
-||ads*.dfiles.eu^
 ||ads.*.yahoo.com^
 ||js.*2023*.live^
 ||zaqlovh*.xyz^
@@ -662,6 +657,7 @@ analytics-*.aasaam.com
 ||geotargetly-api-*.com^
 ||collector-*.px-cloud.net^
 ||fads*z.com^
+||iad-*.braze.com^
 ||prod.*.publishers.advertising.a2z.com^
 ||bjsvp*.space^
 ||hw-p2p*pull*com^
@@ -690,17 +686,20 @@ analytics-*.aasaam.com
 ||gads*z.com^
 ||ad.*.xiaomi.com^
 ||ad*.aginomoto.com
-||imgpfx.arenavision.
 ||reachableads-av.*.amazonaws.com^
 ||ads*.opensubtitles.org^
 rgmechanicsgames.com*VPN.exe
+||ads*.dfiles.eu^
 @@||adobeid-*.services.adobe.com^
+||ads*.depositfiles.com^
+||ads*.depositfiles.org^
 ||fapnado.*.php|
 ||itechpost.com*adbk
 ||rgfftupf.
 @@||cdn*.porn300.com^
 ||gamenguide.com*adbk
 ||counter*.stat.ovh^
+||ads*.dfiles.ru^
 ||centent.streamp1ay.
 ||ads.livetv*.me^
 ||advert*.livesportmedia.eu^
@@ -738,3 +737,4 @@ body {
             }
         return arguments;
 }
+||imgpfx.arenavision.
