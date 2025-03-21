@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-03-20 20:26:26
+! Update time: 2025-03-21 09:05:41
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -14025,6 +14025,7 @@
 0.0.0.0 kqzyfj.com
 0.0.0.0 gpaper191.112.2o7.net
 0.0.0.0 counter31.bravenet.com
+0.0.0.0 mybancoschiles.gets-it.net
 0.0.0.0 oascentral.wjla.com
 0.0.0.0 ab.5.p2l.info
 0.0.0.0 dailygame.fr
