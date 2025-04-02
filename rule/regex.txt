@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-04-01 20:28:45
+! Update time: 2025-04-02 09:07:10
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -454,6 +454,7 @@ analytics-*.aasaam.com
 ||analytics-*-nfl.yinzcam.com^
 ||xlog*-*.tiktokv.com^
 ||liveme-sensors-collect2-*.amazonaws.com^
+||ad*.on.cc^
 ||rtlog*.tiktokv.us^
 ||v*-ad.video.yximgs.com^
 ||st-*.dynamicyield.com^
@@ -579,6 +580,7 @@ analytics-*.aasaam.com
 ||aan.amazon.*^
 ||ms*.applvn.com^
 ||thegreatesthits.
+||iad-*.braze.com^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||tracking-*.trnox.com^
 ||snowplow-collector.
@@ -611,7 +613,6 @@ analytics-*.aasaam.com
 ||sd.yhzzzs*.com^
 ||w*.*skwai.com^
 ||ifengad.*.ifeng.com^
-||ad*.on.cc^
 ||bjkedv*.xyz^
 ||p26.gejulm*.com^
 ||adservice.google.*^
@@ -658,7 +659,6 @@ analytics-*.aasaam.com
 ||geotargetly-api-*.com^
 ||collector-*.px-cloud.net^
 ||fads*z.com^
-||iad-*.braze.com^
 ||prod.*.publishers.advertising.a2z.com^
 ||bjsvp*.space^
 ||hw-p2p*pull*com^
@@ -674,7 +674,6 @@ analytics-*.aasaam.com
 ||thezbpe5*.xyz^
 ||ads*-normal*.zijieapi.com^
 ||fads*s.com^
-||ulogs*.gifshow.com^
 ||xy-*pcdn.msstatic.com^
 ||js.*2023*.xyz^
 ||log*-normal-lq.toutiaoapi.com^
