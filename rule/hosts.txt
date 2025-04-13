@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-04-13 10:35:11
+! Update time: 2025-04-13 20:25:03
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -18707,6 +18707,7 @@
 127.0.0.1 worker20.advertnative.com
 127.0.0.1 cw.addthis.com
 127.0.0.1 serve.popads.net
+127.0.0.1 adups.com
 127.0.0.1 tagged-by.rubiconproject.net.akadns.net
 127.0.0.1 ad13.adfarm1.adition.com
 127.0.0.1 tr.iadsdk.apple.com
