@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-04-22 20:28:00
+! Update time: 2025-04-23 09:08:36
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -395,6 +395,7 @@ analytics-*.aasaam.com
 ||adx-*.dbankedge.cn^
 ||pixel-*.rubiconproject.com^
 ||mcs-*.lemon8-app.com^
+||cdn-adn-*.rayjump.com^
 ||track.tiara.
 ||stlog*-local.kakao.com^
 ||orbit*.lun.ua^
@@ -641,7 +642,6 @@ analytics-*.aasaam.com
 ||tblog-*.kgslb.com^
 ||ajx*.online^
 ||cas.*.criteo.com^
-||cdn-adn-*.rayjump.com^
 ||n*adserv.com^
 ||zahrvfbd*.xyz^
 ||ks-p2p*pull*com^
