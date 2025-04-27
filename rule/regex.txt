@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-04-27 09:12:44
+! Update time: 2025-04-27 20:25:07
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -293,6 +293,7 @@ analytics-*.aasaam.com
 ||lt*.tritondigital.com^
 ||api-*.hismarttv.com^
 ||partner.superbahisaffiliates*.com^
+||admob-app-id-*.firebaseio.com^
 ||datacollect*.abtasty.com^
 ||mon-*.lemon8-app.us^
 ||mon-*.lemon8-app.com^
@@ -345,6 +346,7 @@ analytics-*.aasaam.com
 ||marketplace-*.hyprmx.com^
 ||analytics.streamfab.
 ||tnc*.tiktokv.us^
+||ad*.ettoday.net^
 ||log-collector.shopee.
 ||report*.appmetrica.webvisor.com^
 ||ad*.tmgrup.com.tr^
@@ -457,6 +459,7 @@ analytics-*.aasaam.com
 ||xlog*-*.tiktokv.com^
 ||sdk-*.moengage.com^
 ||liveme-sensors-collect2-*.amazonaws.com^
+||ad*.on.cc^
 ||rtlog*.tiktokv.us^
 ||v*-ad.video.yximgs.com^
 ||st-*.dynamicyield.com^
@@ -584,6 +587,7 @@ analytics-*.aasaam.com
 ||aan.amazon.*^
 ||ms*.applvn.com^
 ||thegreatesthits.
+||iad-*.braze.com^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||tracking-*.trnox.com^
 ||snowplow-collector.
@@ -616,13 +620,11 @@ analytics-*.aasaam.com
 ||sd.yhzzzs*.com^
 ||w*.*skwai.com^
 ||ifengad.*.ifeng.com^
-||ad*.on.cc^
 ||bjkedv*.xyz^
 ||ads*.dfiles.ru^
 ||p26.gejulm*.com^
 ||adservice.google.*^
 ||ad.kisstvshow.*^
-||admob-app-id-*.firebaseio.com^
 ||qn-*pcdn.cdn.huya.com^
 ||widgets.*.webengage.com^
 ||zazgiyoh*.world^
@@ -667,7 +669,6 @@ analytics-*.aasaam.com
 ||geotargetly-api-*.com^
 ||collector-*.px-cloud.net^
 ||fads*z.com^
-||iad-*.braze.com^
 ||prod.*.publishers.advertising.a2z.com^
 ||bjsvp*.space^
 ||hw-p2p*pull*com^
@@ -681,7 +682,6 @@ analytics-*.aasaam.com
 ||ws-p2p*pull*com^
 ||yhsfsdv*.com^
 ||thezbpe5*.xyz^
-||ad*.ettoday.net^
 ||ads*-normal*.zijieapi.com^
 ||fads*s.com^
 ||xy-*pcdn.msstatic.com^
