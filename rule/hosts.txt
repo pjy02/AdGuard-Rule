@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-05-09 09:10:11
+! Update time: 2025-05-09 20:28:13
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -4063,6 +4063,7 @@
 0.0.0.0 cnhimcalesternews.122.2o7.net
 0.0.0.0 bigdata.adups.com
 0.0.0.0 rss.buysellads.com
+0.0.0.0 msft-ssp-emea.adnxs.com
 0.0.0.0 advertpro.sitepoint.com
 0.0.0.0 w157.hitbox.com
 0.0.0.0 accomodation-tastes.net
