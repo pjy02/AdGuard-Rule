@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-06-02 20:30:30
+! Update time: 2025-06-03 09:13:09
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -397,7 +397,6 @@ analytics-*.aasaam.com
 ||adx-*.dbankedge.cn^
 ||pixel-*.rubiconproject.com^
 ||mcs-*.lemon8-app.com^
-||cdn-adn-*.rayjump.com^
 ||log-va*.capcutapi.com^
 ||track.tiara.
 ||stlog*-local.kakao.com^
@@ -467,7 +466,6 @@ analytics-*.aasaam.com
 ||xlog*-*.tiktokv.com^
 ||sdk-*.moengage.com^
 ||liveme-sensors-collect2-*.amazonaws.com^
-||ad*.on.cc^
 ||rtlog*.tiktokv.us^
 ||v*-ad.video.yximgs.com^
 ||st-*.dynamicyield.com^
@@ -604,7 +602,6 @@ analytics-*.aasaam.com
 ||aan.amazon.*^
 ||ms*.applvn.com^
 ||thegreatesthits.
-||iad-*.braze.com^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||tracking-*.trnox.com^
 ||sgtm.wimdu.
@@ -625,44 +622,32 @@ analytics-*.aasaam.com
 ||v*.sitecounter.site^
 ||pangolin-sdk-toutiao*.com^
 ||us.*.qwadro.com^
-||aj2*.online^
-||ping*.qq.com^
 ||player-feedback*.glomex.*^
 ||zazgiyoh*.xyz^
 ||zcchyw*.xyz^
-||cj1*.online^
 ||log*-misc-lq.amemv.com^
 ||stats*.credit-cooperatif.coop^
 ||ulog*.*^
-||prod.*.analytics.console.aws.a2z.com^
 ||sd.yhzzzs*.com^
 ||w*.*skwai.com^
 ||ifengad.*.ifeng.com^
+||ad*.on.cc^
 ||bjkedv*.xyz^
 ||p26.gejulm*.com^
-||adservice.google.*^
 ||ad.kisstvshow.*^
 ||qn-*pcdn.cdn.huya.com^
 ||widgets.*.webengage.com^
 ||zazgiyoh*.world^
-||collector-*.us.tvsquared.com^
 ||zabdybod*.club^
-||hads*s.com^
 ||zazgbqg*.xyz^
-||aj3*.bid^
-||aj1*.online^
 ||log*-*.tiktokv.com^
-||v*.denakop.com^
 ||ads*.zijieapi.com^
 ||zbc6hye*.xyz^
 ||opnked*.xyz^
-||promo-*.vercel.app^
 ||www.xxmh*.com^
 ||163487*.qmgmw.com^
-||tblog-*.kgslb.com^
-||ajx*.online^
 ||cas.*.criteo.com^
-||n*adserv.com^
+||cdn-adn-*.rayjump.com^
 ||zahrvfbd*.xyz^
 ||ks-p2p*pull*com^
 ||zbc6hy*.live^
@@ -670,45 +655,27 @@ analytics-*.aasaam.com
 ||qn-*pcdn.cdn.msstatic.com^
 ||ts-p2p*pull*com^
 ||zcchyr*.xyz^
-||ads.*.yahoo.com^
 ||js.*2023*.live^
 ||zaqlovh*.xyz^
-||n*adserv.xyz^
 ||adsfilebssdlbig.*.kugou.com^
-||gads*s.com^
-||aj1*.xyz^
 ||chat*-ce.chatdealer.jp^
 ||util-*.simply-hentai.com^
 ||geotargetly-api-*.com^
-||collector-*.px-cloud.net^
-||fads*z.com^
-||prod.*.publishers.advertising.a2z.com^
+||iad-*.braze.com^
 ||bjsvp*.space^
 ||hw-p2p*pull*com^
-||display-ad-*.kgslb.com^
-||mads*z.com^
 ||gtlpa*.com^
 ||ali-p2p*pull*com^
-||ej1*.online^
-||mistat.*.xiaomi.com^
 ||stat.*.v-56.com^
 ||ws-p2p*pull*com^
 ||yhsfsdv*.com^
 ||thezbpe5*.xyz^
 ||ads*-normal*.zijieapi.com^
-||fads*s.com^
 ||xy-*pcdn.msstatic.com^
 ||js.*2023*.xyz^
 ||log*-normal-lq.toutiaoapi.com^
-||aem-collector-*.kgslb.com^
-||analytics-ad-*.kgslb.com^
 ||ads.*.kugou.com^
-||aj2*.bid^
-||api-*.bidmachine.io^
-||dj1*.online^
 ||firebaselogging-*.googleapis.com^
-||gads*z.com^
-||ad.*.xiaomi.com^
 ||ad*.aginomoto.com
 ||reachableads-av.*.amazonaws.com^
 ||ads*.opensubtitles.org^
