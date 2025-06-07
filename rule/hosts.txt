@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-06-07 09:11:17
+! Update time: 2025-06-07 20:27:06
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
