@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-06-06 20:29:05
+! Update time: 2025-06-07 09:11:17
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -319,7 +319,6 @@ analytics-*.aasaam.com
 ||iptracker-lb-*.amazonaws.com^
 ||cpng.lol.^
 ||alishop*.ru^
-||pijama.*.elasticbeanstalk.com^
 ||ad*.wisenut.co.kr^
 ||pixel*.adswizz.com
 ||ali-bj-pcdn-*.biliapi.net^
@@ -623,7 +622,6 @@ analytics-*.aasaam.com
 ||collector*.ex.co^
 ||poptraf.
 ||v*.sitecounter.site^
-||ad*.aginomoto.com
 ||pangolin-sdk-toutiao*.com^
 ||us.*.qwadro.com^
 ||aj2*.online^
@@ -710,10 +708,11 @@ analytics-*.aasaam.com
 ||firebaselogging-*.googleapis.com^
 ||gads*z.com^
 ||ad.*.xiaomi.com^
-||imgpfx.arenavision.
+||ad*.aginomoto.com
 ||reachableads-av.*.amazonaws.com^
 ||ads*.opensubtitles.org^
 rgmechanicsgames.com*VPN.exe
+||pijama.*.elasticbeanstalk.com^
 ||ads*.dfiles.eu^
 ||ads*.depositfiles.com^
 ||ads*.depositfiles.org^
@@ -762,6 +761,7 @@ body {
             }
         return arguments;
 }
+||imgpfx.arenavision.
     })();
 <div>
 iframe {
