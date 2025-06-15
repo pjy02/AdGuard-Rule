@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-06-14 20:26:59
+! Update time: 2025-06-15 09:20:33
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -8061,6 +8061,7 @@
 0.0.0.0 s.media-imdb.com
 0.0.0.0 s9kkremkr0.com
 0.0.0.0 i6.ictorganisers.com
+0.0.0.0 tracking.scientific-meets.com
 0.0.0.0 www211.paypopup.com
 0.0.0.0 ad22digital.checkm8.com
 0.0.0.0 ad.lyricswire.com
