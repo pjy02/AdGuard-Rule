@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-06-17 09:13:31
+! Update time: 2025-06-17 20:31:27
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -319,6 +319,7 @@ analytics-*.aasaam.com
 ||iptracker-lb-*.amazonaws.com^
 ||cpng.lol.^
 ||alishop*.ru^
+||pijama.*.elasticbeanstalk.com^
 ||ad*.wisenut.co.kr^
 ||pixel*.adswizz.com
 ||ali-bj-pcdn-*.biliapi.net^
@@ -396,6 +397,7 @@ analytics-*.aasaam.com
 ||adx-*.dbankedge.cn^
 ||pixel-*.rubiconproject.com^
 ||mcs-*.lemon8-app.com^
+||cdn-adn-*.rayjump.com^
 ||log-va*.capcutapi.com^
 ||track.tiara.
 ||stlog*-local.kakao.com^
@@ -465,6 +467,7 @@ analytics-*.aasaam.com
 ||xlog*-*.tiktokv.com^
 ||sdk-*.moengage.com^
 ||liveme-sensors-collect2-*.amazonaws.com^
+||ad*.on.cc^
 ||rtlog*.tiktokv.us^
 ||v*-ad.video.yximgs.com^
 ||st-*.dynamicyield.com^
@@ -638,7 +641,6 @@ analytics-*.aasaam.com
 ||sd.yhzzzs*.com^
 ||w*.*skwai.com^
 ||ifengad.*.ifeng.com^
-||ad*.on.cc^
 ||bjkedv*.xyz^
 ||p26.gejulm*.com^
 ||adservice.google.*^
@@ -663,7 +665,6 @@ analytics-*.aasaam.com
 ||tblog-*.kgslb.com^
 ||ajx*.online^
 ||cas.*.criteo.com^
-||cdn-adn-*.rayjump.com^
 ||n*adserv.com^
 ||zahrvfbd*.xyz^
 ||ks-p2p*pull*com^
@@ -715,7 +716,6 @@ analytics-*.aasaam.com
 ||reachableads-av.*.amazonaws.com^
 ||ads*.opensubtitles.org^
 rgmechanicsgames.com*VPN.exe
-||pijama.*.elasticbeanstalk.com^
 ||ads*.dfiles.eu^
 ||ads*.depositfiles.com^
 ||ads*.depositfiles.org^
