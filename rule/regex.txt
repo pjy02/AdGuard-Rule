@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-06-16 20:31:18
+! Update time: 2025-06-17 09:13:31
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -319,7 +319,6 @@ analytics-*.aasaam.com
 ||iptracker-lb-*.amazonaws.com^
 ||cpng.lol.^
 ||alishop*.ru^
-||pijama.*.elasticbeanstalk.com^
 ||ad*.wisenut.co.kr^
 ||pixel*.adswizz.com
 ||ali-bj-pcdn-*.biliapi.net^
@@ -581,6 +580,7 @@ analytics-*.aasaam.com
 ||events-*.op.hicloud.com^
 ||vst.videolink.
 ||158.247.208.
+||logs-*.rebxgame.com^
 ||banner.*.tccapis.com^
 ||geoloc*.geostats.ovh^
 |load.gtm.
@@ -604,6 +604,7 @@ analytics-*.aasaam.com
 ||aan.amazon.*^
 ||ms*.applvn.com^
 ||thegreatesthits.
+||iad-*.braze.com^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||tracking-*.trnox.com^
 ||sgtm.wimdu.
@@ -683,7 +684,6 @@ analytics-*.aasaam.com
 ||geotargetly-api-*.com^
 ||collector-*.px-cloud.net^
 ||fads*z.com^
-||iad-*.braze.com^
 ||prod.*.publishers.advertising.a2z.com^
 ||bjsvp*.space^
 ||hw-p2p*pull*com^
@@ -715,6 +715,7 @@ analytics-*.aasaam.com
 ||reachableads-av.*.amazonaws.com^
 ||ads*.opensubtitles.org^
 rgmechanicsgames.com*VPN.exe
+||pijama.*.elasticbeanstalk.com^
 ||ads*.dfiles.eu^
 ||ads*.depositfiles.com^
 ||ads*.depositfiles.org^
