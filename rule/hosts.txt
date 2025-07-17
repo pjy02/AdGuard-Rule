@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-07-16 20:33:13
+! Update time: 2025-07-17 09:17:49
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -5381,6 +5381,7 @@
 0.0.0.0 area52.fr
 0.0.0.0 n1up.fr
 0.0.0.0 superbrewards.com
+0.0.0.0 return2025costco.com
 0.0.0.0 ads.economist.com
 0.0.0.0 notify1.brucelead.com
 0.0.0.0 rbc-anth-ogrn.com
