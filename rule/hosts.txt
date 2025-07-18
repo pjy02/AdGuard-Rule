@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-07-17 20:32:09
+! Update time: 2025-07-18 09:17:06
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -7778,6 +7778,7 @@
 0.0.0.0 ldglob02.adtech.fr
 0.0.0.0 webtrekk.net
 0.0.0.0 shichihukuudon.com
+0.0.0.0 riosaladohp.com
 0.0.0.0 ad.kataweb.it
 0.0.0.0 reklam.arabul.com
 0.0.0.0 scure-royaibamk.com
