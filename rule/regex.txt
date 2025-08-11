@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-08-10 20:29:43
+! Update time: 2025-08-11 09:20:28
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -270,6 +270,7 @@ advertisers.js|
 ||vns86.oss-*.aliyuncs.com^
 ||asd8900.oss-*.aliyuncs.com^
 ||ky891.oss-*.aliyuncs.com^
+||pixel*.production-public.tubi.io^
 ||adserver*.euroweeklynews.com^
 analytics-*.aasaam.com
 ||an.yandex.
@@ -357,6 +358,7 @@ analytics-*.aasaam.com
 ||videoclik.
 ||poshalim.
 ||adx-*.dbankedge.cn^
+||pixel-*.rubiconproject.com^
 ||track.tiara.
 ||stlog*-local.kakao.com^
 ||orbit*.lun.ua^
@@ -514,7 +516,6 @@ analytics-*.aasaam.com
 ||collector*.ex.co^
 ||poptraf.
 ||v*.sitecounter.site^
-||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
 ||ping*.qq.com^
 ||cj1*.online^
@@ -583,7 +584,6 @@ analytics-*.aasaam.com
 ||events*.cre.ma^
 ||163487*.qmgmw.com^
 ||tblog-*.kgslb.com^
-||pixel-*.rubiconproject.com^
 ||mcs-*.lemon8-app.com^
 ||cdn-adn-*.rayjump.com^
 ||zahrvfbd*.xyz^
@@ -740,3 +740,38 @@ rgmechanicsgames.com*VPN.exe
 Banner468x60
 ||ad*.aginomoto.com
 ||imgpfx.arenavision.
+<script>
+    <noscript>
+            pageOptions
+    xhr.send();
+            } else {
+h1 {
+	}
+        loadFeed(...getLoadFeedArguments());
+    function getLoadFeedArguments() {
+                arguments.push(this[possibleArguments[i]]);
+        }
+};
+                }
+            2025 Copyright | All Rights Reserved.
+                console.log(JSON.parse(xhr.responseText))
+<style>
+        ];
+<head>
+    Privacy Policy
+    }
+                    return;
+    };
+    <script>
+			Koop dit domein. | More domains at Seo.Domains
+<!DOCTYPE html>
+body {
+                console.log('There was a problem with the request.');
+            }
+        return arguments;
+}
+    })();
+<div>
+iframe {
+    (function () {
+<body>
