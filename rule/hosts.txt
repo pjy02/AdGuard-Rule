@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-08-13 20:32:14
+! Update time: 2025-08-14 09:14:29
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -2712,6 +2712,7 @@
 0.0.0.0 track.msadcenter.pwpn.com
 0.0.0.0 villepariis.fr
 0.0.0.0 viralvideos.tips
+0.0.0.0 united-domaine.tech
 0.0.0.0 ph-ad09.focalink.com
 0.0.0.0 adserver2.creative.com
 0.0.0.0 hlcc.ca
