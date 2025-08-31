@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-08-31 09:11:59
+! Update time: 2025-08-31 20:26:29
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -270,31 +270,7 @@ advertisers.js|
 ||vns86.oss-*.aliyuncs.com^
 ||asd8900.oss-*.aliyuncs.com^
 ||ky891.oss-*.aliyuncs.com^
-||reachableads-av.*.amazonaws.com^
-||pijama.*.elasticbeanstalk.com^
-||ads*.dfiles.eu^
-||rgfftupf.
-||gamenguide.com*adbk
-||counter*.stat.ovh^
-||util-*.simply-hentai.com^
-||ads*.dfiles.ru^
-||centent.streamp1ay.
-||ads.livetv*.me^
-||advert*.livesportmedia.eu^
-||142.91.159.
-||prebid-*.rubiconproject.com^
-Banner468x60
-||ads*.opensubtitles.org^
-rgmechanicsgames.com*VPN.exe
-||ads*.depositfiles.com^
-||ads*.depositfiles.org^
-||fapnado.*.php|
-||itechpost.com*adbk
-@@||cdn*.porn300.com^
-||admi2fib4exit^
-||cas.*.criteo.com^
-||fxhpaoxqyajvmdg.
-||cintent.streanplay.
+||pixel*.production-public.tubi.io^
 ||adserver*.euroweeklynews.com^
 analytics-*.aasaam.com
 ||an.yandex.
@@ -321,6 +297,7 @@ analytics-*.aasaam.com
 ||real*traf.ru^
 ||wa.gmx.
 ||analytics*.clickdimensions.com^
+||pxl-*.ozone.ru^
 ||ads-*-nfl.yinzcam.com^
 ||ads*.production-public.tubi.io^
 ||cnt.yeptube.
@@ -346,9 +323,11 @@ analytics-*.aasaam.com
 ||analytics.streamfab.
 ||tnc*.tiktokv.us^
 ||log-collector.shopee.
+||report*.appmetrica.webvisor.com^
 ||ad*.tmgrup.com.tr^
 ||goodadvert.
 ||ads*.bojijulebu.com^
+||rtlog*.tiktokv.com^
 ||stat*.1internet.tv^
 ||rb*.design.ru^
 ||logs*.smithsonian.museum^
@@ -379,6 +358,7 @@ analytics-*.aasaam.com
 ||videoclik.
 ||poshalim.
 ||adx-*.dbankedge.cn^
+||pixel-*.rubiconproject.com^
 ||track.tiara.
 ||stlog*-local.kakao.com^
 ||orbit*.lun.ua^
@@ -410,6 +390,7 @@ analytics-*.aasaam.com
 ||stats-*.p2pnow.ru^
 ||broredir*s.site^
 ||admulti.
+||report.*.gbqofs.io^
 ||ads*-normal-lq.zijieapi.com^
 ||tnc16-*.byteoversea.com^
 ||mf*.advantage.as^
@@ -425,6 +406,7 @@ analytics-*.aasaam.com
 ||analytics-api.dvdfab.
 ||xlog*-*.tiktokv.com^
 ||sdk-*.moengage.com^
+||rtlog*.tiktokv.us^
 ||v*-ad.video.yximgs.com^
 ||st-*.dynamicyield.com^
 ||bondzgi*.
@@ -536,7 +518,6 @@ analytics-*.aasaam.com
 ||collector*.ex.co^
 ||poptraf.
 ||v*.sitecounter.site^
-||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
 ||ping*.qq.com^
 ||cj1*.online^
@@ -561,7 +542,6 @@ analytics-*.aasaam.com
 ||zbc6hy*.live^
 ||bi-eventtracker-*.amazonaws.com^
 ||mon*-*.tiktokv.us^
-||pxl-*.ozone.ru^
 ||iptracker-lb-*.amazonaws.com^
 ||ts-p2p*pull*com^
 ||ali-bj-pcdn-*.biliapi.net^
@@ -575,11 +555,9 @@ analytics-*.aasaam.com
 ||display-ad-*.kgslb.com^
 ||mistat.*.xiaomi.com^
 ||ad*.ettoday.net^
-||report*.appmetrica.webvisor.com^
 ||beacons*.gvt3.com^
 ||js.*2023*.xyz^
 ||flurry.agentportal.*.yahoodns.net^
-||rtlog*.tiktokv.com^
 ||ads.*.kugou.com^
 ||api-*.bidmachine.io^
 ||logservice-*.platform.dbankcloud.cn^
@@ -609,7 +587,6 @@ analytics-*.aasaam.com
 ||events*.cre.ma^
 ||163487*.qmgmw.com^
 ||tblog-*.kgslb.com^
-||pixel-*.rubiconproject.com^
 ||mcs-*.lemon8-app.com^
 ||cdn-adn-*.rayjump.com^
 ||zahrvfbd*.xyz^
@@ -625,6 +602,7 @@ analytics-*.aasaam.com
 ||mcs-*.lemon8-app.us^
 ||aj1*.xyz^
 ||discovery-ios-*.ertelecom.ru^
+||util-*.simply-hentai.com^
 ||collect-elb-*.amazonaws.com^
 ||collector-*.px-cloud.net^
 ||mcs.*.tiktok.com^
@@ -638,7 +616,6 @@ analytics-*.aasaam.com
 ||yhsfsdv*.com^
 ||thezbpe5*.xyz^
 ||eum*.instana.io^
-||report.*.gbqofs.io^
 ||fads*s.com^
 ||ads-dmp-collect.*.karrotmarket.com^
 ||attr-logs.*.amazonaws.com^
@@ -655,7 +632,6 @@ analytics-*.aasaam.com
 ||analytics-*-nfl.yinzcam.com^
 ||ad*.on.cc^
 ||liveme-sensors-collect2-*.amazonaws.com^
-||rtlog*.tiktokv.us^
 ||host*.ncoi.nl^
 ||lively-collect-elb-*.amazonaws.com^
 ||analytics-rollout-*.amazonaws.com^
@@ -666,6 +642,7 @@ analytics-*.aasaam.com
 ||ads*.zijieapi.com^
 ||host*.polaroid.com^
 ||www.xxmh*.com^
+||cas.*.criteo.com^
 ||datacollector-*.dt.dbankcloud.cn^
 ||n*adserv.com^
 ||ks-p2p*pull*com^
@@ -744,8 +721,31 @@ analytics-*.aasaam.com
 ||aem-collector-*.kgslb.com^
 ||analytics-ad-*.kgslb.com^
 ||aj2*.bid^
-||imgpfx.arenavision.
+||reachableads-av.*.amazonaws.com^
+||ads*.opensubtitles.org^
+rgmechanicsgames.com*VPN.exe
+||pijama.*.elasticbeanstalk.com^
+||ads*.dfiles.eu^
+||ads*.depositfiles.com^
+||ads*.depositfiles.org^
+||fapnado.*.php|
+||itechpost.com*adbk
+||rgfftupf.
+@@||cdn*.porn300.com^
+||admi2fib4exit^
+||gamenguide.com*adbk
+||counter*.stat.ovh^
+||ads*.dfiles.ru^
+||centent.streamp1ay.
+||ads.livetv*.me^
+||advert*.livesportmedia.eu^
+||142.91.159.
+||fxhpaoxqyajvmdg.
+||prebid-*.rubiconproject.com^
+||cintent.streanplay.
+Banner468x60
 ||ad*.aginomoto.com
+||imgpfx.arenavision.
 <script>
     <noscript>
             pageOptions
@@ -776,8 +776,3 @@ body {
             }
         return arguments;
 }
-    })();
-<div>
-iframe {
-    (function () {
-<body>
