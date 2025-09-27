@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-09-27 09:03:23
+! Update time: 2025-09-27 20:25:20
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -351,6 +351,7 @@ advertisers.js|
 ||cdn-adn-*.rayjump.com^
 ||zahrvfbd*.xyz^
 ||log-va*.capcutapi.com^
+||stlog*-local.kakao.com^
 ||p2pup*.gamedl.qq.com^
 ||zcchyr*.xyz^
 ||zaqlovh*.xyz^
@@ -441,6 +442,7 @@ advertisers.js|
 ||geoloc*.geovisite.ovh^
 ||beacon-*.helpscout.net^
 ||mssdk*.capcutapi.com^
+||t*.zcvh.net^
 ||player-feedback*.glomex.*^
 ||res*.pinpai8.cn^
 ||zcchyw*.xyz^
@@ -574,7 +576,6 @@ analytics-*.aasaam.com
 ||poshalim.
 ||adx-*.dbankedge.cn^
 ||track.tiara.
-||stlog*-local.kakao.com^
 ||orbit*.lun.ua^
 ||adx-*.op.dbankcloud.com.edgekey.net^
 ||popupclick.
@@ -666,7 +667,6 @@ analytics-*.aasaam.com
 ||st-n.ads*-adnow.com^
 ||adcs-*.myappsget.com^
 ||cnt.winporn.
-||t*.zcvh.net^
 ||ulog*.kwai-pro.com^
 ||collector.hamsterix.
 ||logstash-*.radio-canada.ca^
@@ -770,14 +770,3 @@ body {
                 console.log('There was a problem with the request.');
             }
 }
-h1 {
-        loadFeed(...getLoadFeedArguments());
-            2025 Copyright | All Rights Reserved.
-    function getLoadFeedArguments() {
-    <script>
-        ];
-                arguments.push(this[possibleArguments[i]]);
-<!DOCTYPE html>
-    Privacy Policy
-        return arguments;
-            pageOptions
