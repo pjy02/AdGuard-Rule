@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-10-01 09:14:11
+! Update time: 2025-10-01 20:31:25
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -398,6 +398,7 @@ analytics-*.aasaam.com
 ||adserver1.
 ||ad*.mellesleg.hu^
 ||mcs.*.tiktok.com^
+||log-*.previewnetworks.com^
 ||backstory.ebay.
 ||adx-*.dbankcloud.
 ||pop-parad.
@@ -425,6 +426,7 @@ analytics-*.aasaam.com
 ||analytics-api.dvdfab.
 ||xlog*-*.tiktokv.com^
 ||sdk-*.moengage.com^
+||liveme-sensors-collect2-*.amazonaws.com^
 ||rtlog*.tiktokv.us^
 ||v*-ad.video.yximgs.com^
 ||st-*.dynamicyield.com^
@@ -563,7 +565,6 @@ analytics-*.aasaam.com
 ||collector-*.pxchk.net^
 ||host*.carl-ras.dk^
 ||ad*.on.cc^
-||liveme-sensors-collect2-*.amazonaws.com^
 ||host*.ncoi.nl^
 ||hw-sh-pcdn-*.biliapi.net^
 ||faro-collector-prod-*.grafana.net^
@@ -692,14 +693,12 @@ analytics-*.aasaam.com
 ||discovery-ios-*.ertelecom.ru^
 ||analytics*.carambo.la^
 ||chat*-ce.chatdealer.jp^
-||util-*.simply-hentai.com^
 ||collect-elb-*.amazonaws.com^
 ||collector-*.px-cloud.net^
 ||iad-*.braze.com^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||bjsvp*.space^
 ||hw-p2p*pull*com^
-||log-*.previewnetworks.com^
 ||counter*-yadro*-ru.unblocked.lol^
 ||mads*z.com^
 ||gtlpa*.com^
@@ -738,6 +737,7 @@ rgmechanicsgames.com*VPN.exe
 ||admi2fib4exit^
 ||gamenguide.com*adbk
 ||counter*.stat.ovh^
+||util-*.simply-hentai.com^
 ||ads*.dfiles.ru^
 ||ads.livetv*.me^
 ||advert*.livesportmedia.eu^
@@ -745,5 +745,41 @@ rgmechanicsgames.com*VPN.exe
 ||fxhpaoxqyajvmdg.
 ||prebid-*.rubiconproject.com^
 Banner468x60
-||ad*.aginomoto.com
 ||imgpfx.arenavision.
+||ad*.aginomoto.com
+<script>
+    <noscript>
+            pageOptions
+    xhr.send();
+            } else {
+h1 {
+	}
+        loadFeed(...getLoadFeedArguments());
+    function getLoadFeedArguments() {
+                arguments.push(this[possibleArguments[i]]);
+        }
+};
+			Buy this domain. | More domains at Seo.Domains
+                }
+            2025 Copyright | All Rights Reserved.
+                console.log(JSON.parse(xhr.responseText))
+<style>
+        ];
+<head>
+    Privacy Policy
+    }
+                    return;
+    };
+    <script>
+<!DOCTYPE html>
+body {
+                console.log('There was a problem with the request.');
+            }
+        return arguments;
+}
+        console.log('Callback complete.');
+    })();
+<div>
+iframe {
+    (function () {
+<body>
