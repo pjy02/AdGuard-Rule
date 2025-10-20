@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-10-20 09:12:53
+! Update time: 2025-10-20 20:31:13
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -290,7 +290,6 @@ advertisers.js|
 ||mon-*.lemon8-app.com^
 ||beehiiv-adnetwork-production.s*.amazonaws.com^
 ||log*-misc-lf.amemv.com^
-||stats2.*.fdnames.com^
 ||v*.denakop.com^
 ||opnked*.xyz^
 ||ajx*.online^
@@ -374,7 +373,6 @@ advertisers.js|
 ||auth-*.hismarttv.com^
 ||ws-p2p*pull*com^
 ||batchlogging*-eu.truecaller.com^
-||stats-*.p2pnow.ru^
 ||yhsfsdv*.com^
 ||thezbpe5*.xyz^
 ||eum*.instana.io^
@@ -456,7 +454,6 @@ advertisers.js|
 ||matomo.*.vn^
 ||appanalysis*.banggood.com^
 ||maas-*.phunware.com^
-||tw-726620180914.*.run.app^
 ||applog*.matrix.easebar.com^
 ||hstats*.hepsiburada.com^
 ||zabdybod*.club^
@@ -471,7 +468,6 @@ advertisers.js|
 ||logs-*.rebxgame.com^
 ||promo-*.vercel.app^
 ||geoloc*.geostats.ovh^
-||ssp*.rtb.beeline.ru^
 ||log-*.zadn.vn^
 ||api*.moengage.com^
 ||hba*.hepsiburada.com^
@@ -511,6 +507,7 @@ analytics-*.aasaam.com
 ||cnt.vivatube.
 ||rotabanner.
 ||advert*.ultraweb.hu^
+||stats2.*.fdnames.com^
 ||stats.zone-telechargement.
 ||clk.rtpdn*.com^
 ||flipflapflo.
@@ -603,6 +600,7 @@ analytics-*.aasaam.com
 ||ir-new-cdn-eu-west-*-hb.rayjump.com^
 ||mediacontext.
 ||videoclick.
+||stats-*.p2pnow.ru^
 ||broredir*s.site^
 ||admulti.
 ||ads*-normal-lq.zijieapi.com^
@@ -684,6 +682,7 @@ analytics-*.aasaam.com
 ||ulog.*.kwai-pro.com^
 ||ubacollect-*.cloud.dbankcloud.cn^
 ||rotaban.
+||tw-726620180914.*.run.app^
 ||prebid-cache*.ifunny.co^
 ||api*.batmobi.net^
 ||tnc-va*.capcutapi.com^
@@ -695,6 +694,7 @@ analytics-*.aasaam.com
 ||158.247.208.
 ||banner.*.tccapis.com^
 |load.gtm.
+||ssp*.rtb.beeline.ru^
 ||stats*.videonow.ru^
 ||pixel.archive.
 ||ad*.thisisgame.com^
@@ -778,7 +778,6 @@ body {
         document.getElementById('content').remove();
                 console.log('There was a problem with the request.');
             }
-}
     <script>
   console.log('Callback complete.');
         body {
