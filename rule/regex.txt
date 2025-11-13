@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-11-13 09:11:45
+! Update time: 2025-11-13 20:32:20
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -292,6 +292,7 @@ advertisers.js|
 ||us.*.qwadro.com^
 ||aj2*.online^
 ||cs*.mp3bars.com^
+||tracking-v*.a.run.app^
 ||zazgiyoh*.xyz^
 ||stats*.credit-cooperatif.coop^
 ||tracking*.euroads.fi^
@@ -328,7 +329,6 @@ advertisers.js|
 ||mcs-*.lemon8-app.us^
 ||aj1*.xyz^
 ||discovery-ios-*.ertelecom.ru^
-||util-*.simply-hentai.com^
 ||collect-elb-*.amazonaws.com^
 ||collector-*.px-cloud.net^
 ||mcs.*.tiktok.com^
@@ -393,6 +393,7 @@ advertisers.js|
 ||ads.*.yahoo.com^
 ||event.*.karrotmarket.com^
 ||gads*s.com^
+||trk*.vidible.tv^
 ||gscounters.*.gigya.com^
 ||fads*z.com^
 ||prod.*.publishers.advertising.a2z.com^
@@ -469,6 +470,27 @@ advertisers.js|
 ||aem-collector-*.kgslb.com^
 ||analytics-ad-*.kgslb.com^
 ||aj2*.bid^
+||reachableads-av.*.amazonaws.com^
+||ads*.opensubtitles.org^
+rgmechanicsgames.com*VPN.exe
+||pijama.*.elasticbeanstalk.com^
+||ads*.dfiles.eu^
+||ads*.depositfiles.com^
+||ads*.depositfiles.org^
+||fapnado.*.php|
+||itechpost.com*adbk
+||rgfftupf.
+@@||cdn*.porn300.com^
+||gamenguide.com*adbk
+||counter*.stat.ovh^
+||util-*.simply-hentai.com^
+||ads*.dfiles.ru^
+||ads.livetv*.me^
+||advert*.livesportmedia.eu^
+||142.91.159.
+||fxhpaoxqyajvmdg.
+||prebid-*.rubiconproject.com^
+Banner468x60
 ||adserver*.euroweeklynews.com^
 analytics-*.aasaam.com
 ||an.yandex.
@@ -528,7 +550,6 @@ analytics-*.aasaam.com
 ||ecommerce-events*.adscale.com^
 ||counter*.freecounter.ovh^
 ||grs.dbankcloud.
-||tracking-v*.a.run.app^
 ||a*.smlog.co.kr^
 ||track.zalando.
 ||seller-log-collector.shopee.
@@ -612,7 +633,6 @@ analytics-*.aasaam.com
 ||adv0*.msa.cdn.mediaset.net^
 ||ulog.*.ksapisrv.com^
 ||servo-report.dvdfab.
-||trk*.vidible.tv^
 ||pop-under.
 ||adserver.*.yahoodns.net^
 ||talpa-analytics.
@@ -642,6 +662,7 @@ analytics-*.aasaam.com
 ||collector.hamsterix.
 ||h3v9p8x2q1r7-agckaeh6g2ehcaes.*.azurewebsites.net^
 ||matomo-demo-*.amazonaws.com^
+||sdk.fra-*.braze.eu^
 ||logstash-*.radio-canada.ca^
 ||dualstack.adbert-web-lbs-*.elb.amazonaws.com^
 ||i-*.ci360.sas.com^
@@ -693,59 +714,53 @@ analytics-*.aasaam.com
 ||poptraf.
 ||v*.sitecounter.site^
 ||touch.yesim.
-||reachableads-av.*.amazonaws.com^
-||ads*.opensubtitles.org^
-rgmechanicsgames.com*VPN.exe
-||pijama.*.elasticbeanstalk.com^
-||ads*.dfiles.eu^
-||ads*.depositfiles.com^
-||ads*.depositfiles.org^
-||fapnado.*.php|
-||itechpost.com*adbk
-||rgfftupf.
-@@||cdn*.porn300.com^
-||gamenguide.com*adbk
-||counter*.stat.ovh^
-||ads*.dfiles.ru^
-||ads.livetv*.me^
-||advert*.livesportmedia.eu^
-||142.91.159.
-||fxhpaoxqyajvmdg.
-||prebid-*.rubiconproject.com^
-Banner468x60
 ||imgpfx.arenavision.
 ||ad*.aginomoto.com
+  console.log('Callback complete.');
+        iframe {
+    <noscript>
             return null;
-    })
             console.log(data);
         } else {
-        h1 {
-        p {
-<style>
-        console.error(error);
-<head>
-<body>
-<script>
-    })();
-        footer {
-<style>
-<head>
-  console.log('Callback complete.');
-        body {
-    (function () {
-        iframe {
-    }
-        return JSON.parse(await response.text());
-        window.onRTBFailure();
-    <noscript>
 	}
-h1 {
-<div>
-    <script>
     document.getElementById('content').remove();
         }
     });
-body {
+<body>
             window.onRTBFailure();
 };
+    })
+        h1 {
+        p {
+        footer {
+<style>
+<head>
+        body {
+        return JSON.parse(await response.text());
+        window.onRTBFailure();
+<div>
+    <script>
+        console.error(error);
+                }
+    })();
+        function handleRTBFailure() {
+                console.log(JSON.parse(xhr.responseText))
+    (function () {
+            console.log('Failure callback complete.');
+            document.getElementById('loading')?.remove();
+    }
+<script>
+    <style>
+    xhr.send();
+                    return;
+    };
+            } else {
+h1 {
+iframe {
+                return;
+body {
+            handleRTBFailure();
+                console.log('There was a problem with the request.');
+            }
+        document.getElementById('content')?.remove();
 			Buy this domain. | More domains at Seo.Domains
