@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-11-21 09:10:17
+! Update time: 2025-11-21 20:30:01
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -314,6 +314,7 @@ analytics-*.aasaam.com
 ||clickstream-*.homedepot.com^
 ||log*-normal-useast1a.lemon8-app.com^
 ||stat*.1internet.tv^
+||analyzer*.fc2.com^
 ||rb*.design.ru^
 ||log*.byteoversea.com^
 ||mon*-misc-lf.fqnovel.com^
@@ -389,9 +390,11 @@ analytics-*.aasaam.com
 ||adx-*.dbankcloud.
 ||pop-parad.
 ||mediate-ios-*.hyprmx.com^
+||auth-*.hismarttv.com^
 ||ir-new-cdn-eu-west-*-hb.rayjump.com^
 ||mediacontext.
 ||videoclick.
+||batchlogging*-eu.truecaller.com^
 ||stats-*.p2pnow.ru^
 ||broredir*s.site^
 ||admulti.
@@ -402,6 +405,7 @@ analytics-*.aasaam.com
 ||mf*.advantage.as^
 ||query*.petametrics.com^
 ||button.blogs.yandex.
+||attr-logs.*.amazonaws.com^
 ||flurry.agentportal-*.yahoodns.net^
 ||zbb.bbb.*.pics^
 ||host*.rigbyandpeller.com^
@@ -446,6 +450,8 @@ analytics-*.aasaam.com
 ||datacollector-*.dt.dbankcloud.cn^
 ||s*.skencituer.com^
 ||underclick.
+||apiproxy-log-nlb-1f304af4d3ac01a4.elb.us-east-*.amazonaws.com^
+||batchlogging*-noneu.truecaller.com^
 ||apple-*.le.com^
 ||imp-*.jampp.com^
 ||bc.geocities.
@@ -475,7 +481,6 @@ analytics-*.aasaam.com
 ||mon*-*.tiktokv.com^
 ||collector-*.px-client.net^
 ||log-*.epicdn.me^
-||metric*.rediff.com^
 ||ads*-normal*.zijieapi.com^
 ||ad-*.amazonaws.com^
 ||tnc*.zijieapi.com^
@@ -511,6 +516,7 @@ analytics-*.aasaam.com
 ||dualstack.adbert-web-lbs-*.elb.amazonaws.com^
 ||i-*.ci360.sas.com^
 ||ad*.bilgin.pro^
+||app-analytics-*.snapchat.com^
 ||tnc*.tiktokv.com^
 ||px*.mediahills.ru^
 ||matomo.*.vn^
@@ -604,8 +610,6 @@ analytics-*.aasaam.com
 ||n*adserv.com^
 ||ks-p2p*pull*com^
 ||zbc6hy*.live^
-||apiproxy-log-nlb-1f304af4d3ac01a4.elb.us-east-*.amazonaws.com^
-||batchlogging*-noneu.truecaller.com^
 ||ts-p2p*pull*com^
 ||ads.*.yahoo.com^
 ||ali-bj-pcdn-*.biliapi.net^
@@ -620,12 +624,12 @@ analytics-*.aasaam.com
 ||mistat.*.xiaomi.com^
 ||stat.*.v-56.com^
 ||adcounter*.uptolike.ru^
+||metric*.rediff.com^
 ||ad*.ettoday.net^
 ||xy-*pcdn.msstatic.com^
 ||js.*2023*.xyz^
 ||ads.*.kugou.com^
 ||api-*.bidmachine.io^
-||analyzer*.fc2.com^
 ||dj1*.online^
 ||ad.*.xiaomi.com^
 ||us.*.qwadro.com^
@@ -638,7 +642,6 @@ analytics-*.aasaam.com
 ||ulog*.*^
 ||prod.*.analytics.console.aws.a2z.com^
 ||api*.amplitude.com^
-||app-analytics-*.snapchat.com^
 ||ifengad.*.ifeng.com^
 ||bjkedv*.xyz^
 ||p26.gejulm*.com^
@@ -679,10 +682,8 @@ analytics-*.aasaam.com
 ||mads*z.com^
 ||gtlpa*.com^
 ||ali-p2p*pull*com^
-||auth-*.hismarttv.com^
 ||ws-p2p*pull*com^
 ||admicro*.vcmedia.vn^
-||batchlogging*-eu.truecaller.com^
 ||yhsfsdv*.com^
 ||thezbpe5*.xyz^
 ||fads*s.com^
@@ -692,11 +693,11 @@ analytics-*.aasaam.com
 ||collector-*.protechts.net^
 ||analytics-ad-*.kgslb.com^
 ||aj2*.bid^
-||attr-logs.*.amazonaws.com^
 ||firebaselogging-*.googleapis.com^
 ||gads*z.com^
 ||analytics.*.sky.com^
 ||ad*.aginomoto.com
+||imgpfx.arenavision.
 ||reachableads-av.*.amazonaws.com^
 ||ads*.opensubtitles.org^
 rgmechanicsgames.com*VPN.exe
@@ -717,35 +718,35 @@ rgmechanicsgames.com*VPN.exe
 ||fxhpaoxqyajvmdg.
 ||prebid-*.rubiconproject.com^
 Banner468x60
-||imgpfx.arenavision.
+    })();
+  console.log('Callback complete.');
+        iframe {
 <script>
-    <noscript>
-            pageOptions
             return null;
             console.log(data);
         } else {
-h1 {
 	}
-        loadFeed(...getLoadFeedArguments());
-    function getLoadFeedArguments() {
-                arguments.push(this[possibleArguments[i]]);
+h1 {
+    document.getElementById('content').remove();
         }
     });
+<body>
             window.onRTBFailure();
+};
 			Buy this domain. | More domains at Seo.Domains
     })
-            2025 Copyright | All Rights Reserved.
+<noscript>
+        h1 {
+        p {
+        footer {
 <style>
-        ];
 <head>
-    Privacy Policy
+        body {
+    (function () {
     }
         return JSON.parse(await response.text());
         window.onRTBFailure();
-    };
+<div>
     <script>
         console.error(error);
-<!DOCTYPE html>
 body {
-            }
-        return arguments;
