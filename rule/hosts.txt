@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-11-25 09:11:03
+! Update time: 2025-11-25 20:32:36
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -15382,7 +15382,6 @@
 127.0.0.1 mxvp-feature-toggle-prod-1.zenmxapps.com
 127.0.0.1 yt.mmstat.com
 127.0.0.1 eum-orange-saas.instana.io
-127.0.0.1 rtr.innovid.com
 127.0.0.1 rtb.gumgum.com
 127.0.0.1 rat.nl.eu.criteo.com
 127.0.0.1 gateway.ttpsdk.info
