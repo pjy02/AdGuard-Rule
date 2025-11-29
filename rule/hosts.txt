@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-11-28 20:31:31
+! Update time: 2025-11-29 09:09:51
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -4722,6 +4722,7 @@
 0.0.0.0 rpm.newrelisc.com
 0.0.0.0 ru.redtram.com
 0.0.0.0 www.thehomo.org
+0.0.0.0 pa-cd.com
 0.0.0.0 www.is1.clixgalore.com
 0.0.0.0 d7.zedo.com
 0.0.0.0 waldenfarms.com
