@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-12-01 20:32:44
+! Update time: 2025-12-02 09:13:00
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -512,6 +512,7 @@ analytics-*.aasaam.com
 ||158.247.208.
 ||logs-*.rebxgame.com^
 ||banner.*.tccapis.com^
+||data-track*.yingxiong.com^
 ||geoloc*.geostats.ovh^
 |load.gtm.
 ||ssp*.rtb.beeline.ru^
@@ -652,7 +653,6 @@ analytics-*.aasaam.com
 ||aff*.kolektiva.net^
 ||promo-*.vercel.app^
 ||163487*.qmgmw.com^
-||data-track*.yingxiong.com^
 ||tblog-*.kgslb.com^
 ||cdn-adn-*.rayjump.com^
 ||zahrvfbd*.xyz^
@@ -698,6 +698,7 @@ analytics-*.aasaam.com
 ||gads*z.com^
 ||analytics.*.sky.com^
 ||ad*.aginomoto.com
+||imgpfx.arenavision.
 ||reachableads-av.*.amazonaws.com^
 ||ads*.opensubtitles.org^
 rgmechanicsgames.com*VPN.exe
@@ -718,7 +719,6 @@ rgmechanicsgames.com*VPN.exe
 ||fxhpaoxqyajvmdg.
 ||prebid-*.rubiconproject.com^
 Banner468x60
-||imgpfx.arenavision.
 <script>
     <noscript>
             pageOptions
@@ -750,3 +750,19 @@ h1 {
 body {
             }
         return arguments;
+<noscript>
+    })();
+        function handleRTBFailure() {
+    (function () {
+            console.log('Failure callback complete.');
+            document.getElementById('loading')?.remove();
+    <style>
+    xhr.send();
+<div>
+iframe {
+                return;
+<body>
+            handleRTBFailure();
+                console.log('There was a problem with the request.');
+        document.getElementById('content')?.remove();
+};
