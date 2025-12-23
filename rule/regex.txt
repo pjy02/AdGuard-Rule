@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-12-23 09:15:31
+! Update time: 2025-12-23 20:34:04
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -245,6 +245,7 @@ analytics-*.aasaam.com
 ||telemetry*.transcend.io^
 ||cnt.vivatube.
 ||rotabanner.
+||collector-*.perimeterx.net^
 ||advert*.ultraweb.hu^
 ||log*-misc-lf.amemv.com^
 ||stats2.*.fdnames.com^
@@ -257,6 +258,7 @@ analytics-*.aasaam.com
 ||ads*.production-public.tubi.io^
 ||iptracker-lb-*.amazonaws.com^
 ||putrr*.com^
+||pijama.*.elasticbeanstalk.com^
 ||ad*.wisenut.co.kr^
 ||ali-bj-pcdn-*.biliapi.net^
 ||tccd.douglas.
@@ -296,6 +298,7 @@ analytics-*.aasaam.com
 ||rusrestbest.
 ||mob*.novanewsapp.com^
 ||aff*.kolektiva.net^
+||cdn-adn-*.rayjump.com^
 ||stlog*-local.kakao.com^
 ||adx-*.op.dbankcloud.com.edgekey.net^
 ||stats.*.rongnav.com^
@@ -324,18 +327,21 @@ analytics-*.aasaam.com
 ||mediacontext.
 ||stats-*.p2pnow.ru^
 ||admulti.
+||admicro*.vcmedia.vn^
 ||query*.petametrics.com^
 ||button.blogs.yandex.
 ||attr-logs.*.amazonaws.com^
 ||host*.rigbyandpeller.com^
 ||trck.*.prod-na.turntable.sonic.advertising.amazon.dev^
 ||xlog*-*.tiktokv.com^
+||ad*.on.cc^
 ||stats.*.ronghub.com^
 ||v*-ad.video.yximgs.com^
 ||ulog-*.ksapisrv.com^
 ||mssdk*.zijieapi.com^
 ||browser-intake-*-datadoghq.com^
 ||metrics*.fitanalytics.com^
+||get*bannerads-6egeg2u34q-du.a.run.app^
 ||collector-*.px-cdn.net^
 ||ulog*.gifshow.com^
 ||staging-*.ispot.tv^
@@ -613,7 +619,6 @@ analytics-*.aasaam.com
 ||collector*.ex.co^
 ||v*.sitecounter.site^
 ||touch.yesim.
-||ad*.aginomoto.com
 ||pangolin-sdk-toutiao*.com^
 ||us.*.qwadro.com^
 ||aj2*.online^
@@ -629,7 +634,6 @@ analytics-*.aasaam.com
 ||sd.yhzzzs*.com^
 ||w*.*skwai.com^
 ||ifengad.*.ifeng.com^
-||ad*.on.cc^
 ||bjkedv*.xyz^
 ||stun.*.kugou.com^
 ||p26.gejulm*.com^
@@ -642,7 +646,6 @@ analytics-*.aasaam.com
 ||zabdybod*.club^
 ||hads*s.com^
 ||zazgbqg*.xyz^
-||get*bannerads-6egeg2u34q-du.a.run.app^
 ||aj3*.bid^
 ||aj1*.online^
 ||log*-*.tiktokv.com^
@@ -656,7 +659,6 @@ analytics-*.aasaam.com
 ||tblog-*.kgslb.com^
 ||ajx*.online^
 ||cas.*.criteo.com^
-||cdn-adn-*.rayjump.com^
 ||n*adserv.com^
 ||zahrvfbd*.xyz^
 ||ks-p2p*pull*com^
@@ -686,7 +688,6 @@ analytics-*.aasaam.com
 ||mistat.*.xiaomi.com^
 ||stat.*.v-56.com^
 ||ws-p2p*pull*com^
-||admicro*.vcmedia.vn^
 ||yhsfsdv*.com^
 ||thezbpe5*.xyz^
 ||ad.*.360.cn^
@@ -704,10 +705,10 @@ analytics-*.aasaam.com
 ||firebaselogging-*.googleapis.com^
 ||gads*z.com^
 ||ad.*.xiaomi.com^
+||ad*.aginomoto.com
 ||reachableads-av.*.amazonaws.com^
 ||ads*.opensubtitles.org^
 rgmechanicsgames.com*VPN.exe
-||pijama.*.elasticbeanstalk.com^
 ||ads*.dfiles.eu^
 ||ads*.depositfiles.com^
 ||ads*.depositfiles.org^
