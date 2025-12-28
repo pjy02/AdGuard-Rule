@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2025-12-27 20:30:19
+! Update time: 2025-12-28 09:24:05
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -8029,6 +8029,7 @@
 0.0.0.0 ldserv02.adtech.fr
 0.0.0.0 ehg-nvidia.hitbox.com
 0.0.0.0 ad32.checkm8.com
+0.0.0.0 yourofficialsurveysplace.store
 0.0.0.0 u5234.98.spylog.com
 0.0.0.0 gillout.oewabox.at
 0.0.0.0 feeds.videosz.com
