@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-01-10 09:15:27
+! Update time: 2026-01-10 20:30:34
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -12300,6 +12300,7 @@
 0.0.0.0 arteradio.fr
 0.0.0.0 infospress.com
 0.0.0.0 media4.popmarker.com
+0.0.0.0 www.hiewa.com.my
 0.0.0.0 acsentia.fr
 0.0.0.0 entrenador-personal.com
 0.0.0.0 gambero3.cs.tin.it
