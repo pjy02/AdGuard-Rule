@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-01-10 20:30:34
+! Update time: 2026-01-11 09:24:39
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -6565,6 +6565,7 @@
 0.0.0.0 lindependnt.fr
 0.0.0.0 viagra.1.p2l.info
 0.0.0.0 getyour5kcredits0.blogspot.com
+0.0.0.0 marigo.redbacksburger.info
 0.0.0.0 v2.adsbookie.com
 0.0.0.0 ads.traffichaus.com
 0.0.0.0 clk.tradedoubler.com
