@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-01-13 20:36:36
+! Update time: 2026-01-14 09:20:39
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -226,6 +226,28 @@ advertisers.js|
 ||vns86.oss-*.aliyuncs.com^
 ||asd8900.oss-*.aliyuncs.com^
 ||ky891.oss-*.aliyuncs.com^
+||reachableads-av.*.amazonaws.com^
+||ads*.opensubtitles.org^
+rgmechanicsgames.com*VPN.exe
+||pijama.*.elasticbeanstalk.com^
+||ads*.dfiles.eu^
+||ads*.depositfiles.com^
+||ads*.depositfiles.org^
+||ad-host-backup-*.aliyuncs.com^
+||fapnado.*.php|
+||itechpost.com*adbk
+||rgfftupf.
+@@||cdn*.porn300.com^
+||gamenguide.com*adbk
+||counter*.stat.ovh^
+||ads*.dfiles.ru^
+||ads.livetv*.me^
+||advert*.livesportmedia.eu^
+||142.91.159.
+||cas.*.criteo.com^
+||fxhpaoxqyajvmdg.
+||prebid-*.rubiconproject.com^
+Banner468x60
 analytics-*.aasaam.com
 ||an.yandex.
 ||gtmdev.jabra.
@@ -297,6 +319,7 @@ analytics-*.aasaam.com
 ||rusrestbest.
 ||mob*.novanewsapp.com^
 ||aff*.kolektiva.net^
+||cdn-adn-*.rayjump.com^
 ||stlog*-local.kakao.com^
 ||adx-*.op.dbankcloud.com.edgekey.net^
 ||stats.*.rongnav.com^
@@ -324,13 +347,16 @@ analytics-*.aasaam.com
 ||mediacontext.
 ||stats-*.p2pnow.ru^
 ||admulti.
+||admicro*.vcmedia.vn^
 ||tracking.geo.*.amazonaws.com^
 ||query*.petametrics.com^
 ||button.blogs.yandex.
 ||attr-logs.*.amazonaws.com^
 ||host*.rigbyandpeller.com^
 ||trck.*.prod-na.turntable.sonic.advertising.amazon.dev^
+||logs.collector.*.cloud.solarwinds.com^
 ||xlog*-*.tiktokv.com^
+||ad*.on.cc^
 ||stats.*.ronghub.com^
 ||v*-ad.video.yximgs.com^
 ||ulog-*.ksapisrv.com^
@@ -639,7 +665,6 @@ analytics-*.aasaam.com
 ||sd.yhzzzs*.com^
 ||w*.*skwai.com^
 ||ifengad.*.ifeng.com^
-||ad*.on.cc^
 ||bjkedv*.xyz^
 ||stun.*.kugou.com^
 ||p26.gejulm*.com^
@@ -664,8 +689,6 @@ analytics-*.aasaam.com
 ||163487*.qmgmw.com^
 ||tblog-*.kgslb.com^
 ||ajx*.online^
-||cas.*.criteo.com^
-||cdn-adn-*.rayjump.com^
 ||n*adserv.com^
 ||zahrvfbd*.xyz^
 ||ks-p2p*pull*com^
@@ -696,7 +719,6 @@ analytics-*.aasaam.com
 ||mistat.*.xiaomi.com^
 ||stat.*.v-56.com^
 ||ws-p2p*pull*com^
-||admicro*.vcmedia.vn^
 ||yhsfsdv*.com^
 ||thezbpe5*.xyz^
 ||ad.*.360.cn^
@@ -715,25 +737,4 @@ analytics-*.aasaam.com
 ||gads*z.com^
 ||ad.*.xiaomi.com^
 ||ad*.aginomoto.com
-||reachableads-av.*.amazonaws.com^
-||ads*.opensubtitles.org^
-rgmechanicsgames.com*VPN.exe
-||pijama.*.elasticbeanstalk.com^
-||ads*.dfiles.eu^
-||ads*.depositfiles.com^
-||ads*.depositfiles.org^
-||ad-host-backup-*.aliyuncs.com^
-||fapnado.*.php|
-||itechpost.com*adbk
-||rgfftupf.
-@@||cdn*.porn300.com^
-||gamenguide.com*adbk
-||counter*.stat.ovh^
-||ads*.dfiles.ru^
-||ads.livetv*.me^
-||advert*.livesportmedia.eu^
-||142.91.159.
-||fxhpaoxqyajvmdg.
-||prebid-*.rubiconproject.com^
-Banner468x60
 ||imgpfx.arenavision.
