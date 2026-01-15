@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-01-14 20:35:54
+! Update time: 2026-01-15 09:16:36
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -7574,6 +7574,7 @@
 0.0.0.0 ad44digital.checkm8.com
 0.0.0.0 cb.baidu.com
 0.0.0.0 bodyhousse.fr
+0.0.0.0 suenosurcolchones.com.ar.abakotest.com.ar
 0.0.0.0 tgpcounter.freethumbnailgalleries.com
 0.0.0.0 redelivercadpost.com
 0.0.0.0 www.vomitgirl.org
@@ -8233,6 +8234,7 @@
 0.0.0.0 www.1man1jar.org
 0.0.0.0 adbg.hit.gemius.pl
 0.0.0.0 ubmcmm.baidustatic.com
+0.0.0.0 www.dejamesertuvoz.com
 0.0.0.0 e-2dj6wfkiqjcpifp.stats.esomniture.com
 0.0.0.0 poundporter.best
 0.0.0.0 netflixca-updateprofilehelp.com
