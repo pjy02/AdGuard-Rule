@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-01-21 20:38:37
+! Update time: 2026-01-22 09:20:25
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -7602,6 +7602,7 @@
 0.0.0.0 ads.coopson.com
 0.0.0.0 cafj.fr
 0.0.0.0 tiku.io
+0.0.0.0 www.brightstardv.pro
 0.0.0.0 linknotification.com
 0.0.0.0 ad33digital.checkm8.com
 0.0.0.0 bbs.ws
@@ -10416,6 +10417,7 @@
 0.0.0.0 emisja.contentstream.pl
 0.0.0.0 adnetworkperformance.com
 0.0.0.0 callfor-articles.com
+0.0.0.0 www.igameup.com
 0.0.0.0 platinmods.fr
 0.0.0.0 cpm20.com
 0.0.0.0 httpads.com
