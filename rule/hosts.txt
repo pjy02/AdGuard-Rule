@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-01-29 09:40:28
+! Update time: 2026-01-29 20:44:43
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -2713,6 +2713,7 @@
 0.0.0.0 www.banstex.com
 0.0.0.0 track.msadcenter.pwpn.com
 0.0.0.0 villepariis.fr
+0.0.0.0 www.dkpmsa.cfd
 0.0.0.0 viralvideos.tips
 0.0.0.0 united-domaine.tech
 0.0.0.0 ph-ad09.focalink.com
@@ -4084,6 +4085,7 @@
 0.0.0.0 bigdata.adups.com
 0.0.0.0 rss.buysellads.com
 0.0.0.0 msft-ssp-emea.adnxs.com
+0.0.0.0 saouryadi.in
 0.0.0.0 advertpro.sitepoint.com
 0.0.0.0 w157.hitbox.com
 0.0.0.0 accomodation-tastes.net
@@ -11084,6 +11086,7 @@
 0.0.0.0 ads.pitchforkmedia.com
 0.0.0.0 banners.nextcard.com
 0.0.0.0 fanniemae.fr
+0.0.0.0 trifama.com
 0.0.0.0 get-express-vpn.com
 0.0.0.0 www.kolks.nl
 0.0.0.0 app3.letmacwork.world
@@ -13308,6 +13311,7 @@
 0.0.0.0 kh3.kimhasa.com
 0.0.0.0 asm2.z1.adserver.com
 0.0.0.0 d3.zedo.com
+0.0.0.0 www.crystaltao.art
 0.0.0.0 vnumedia02.webtrekk.net
 0.0.0.0 muttuelle.fr
 0.0.0.0 blueconic.net
