@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-02-09 20:57:42
+! Update time: 2026-02-10 09:59:15
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -3256,6 +3256,7 @@
 0.0.0.0 gtcc1.acecounter.com
 0.0.0.0 alliance.adbureau.net
 0.0.0.0 kinowelt.oewabox.at
+0.0.0.0 www.ciderbayoulg.pro
 0.0.0.0 garde-d-enfants-ooreka.fr
 0.0.0.0 www.icecars.com
 0.0.0.0 hphqglobal.112.2o7.net
@@ -5411,6 +5412,7 @@
 0.0.0.0 equativ-match.dotomi.com
 0.0.0.0 w24.hitbox.com
 0.0.0.0 www.justhookup.com
+0.0.0.0 www.pepernity.com
 0.0.0.0 adv.lampsplus.com
 0.0.0.0 phox2ey.bid
 0.0.0.0 c.in.msn.com
@@ -8923,6 +8925,7 @@
 0.0.0.0 adm.funshion.com
 0.0.0.0 ads.designtaxi.com
 0.0.0.0 tramadol.3.p2l.info
+0.0.0.0 www.bucahssana.com
 0.0.0.0 newsofgames.com
 0.0.0.0 a.slunecnice.cz
 0.0.0.0 reklam.misli.com
@@ -9792,6 +9795,7 @@
 0.0.0.0 nikeinc.fr
 0.0.0.0 LUXpolice.net
 0.0.0.0 view.jamba.de
+0.0.0.0 www.bbyjgkkdihiyxy.com
 0.0.0.0 protection.PGpolice.com
 0.0.0.0 paycounter.com
 0.0.0.0 adexchangetracker.com
@@ -10501,6 +10505,7 @@
 0.0.0.0 fu.golikeus.net			# Facebook trojan
 0.0.0.0 s3.pfp.sina.net
 0.0.0.0 www.bodog.eu
+0.0.0.0 www.deperiodista.com
 0.0.0.0 oe24.oewabox.at
 0.0.0.0 www212.paypopup.com
 0.0.0.0 oascentral.law.com
