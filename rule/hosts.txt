@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-03-12 09:27:16
+! Update time: 2026-03-12 20:47:12
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -11420,6 +11420,7 @@
 0.0.0.0 ads.forbes.net
 0.0.0.0 ad4partners.com
 0.0.0.0 www6.click-fr.com
+0.0.0.0 jasperrcorporation.com
 0.0.0.0 univ6lehavre.fr
 0.0.0.0 freevideodownloadforpc.com
 0.0.0.0 survey.china.alibaba.com
@@ -12454,6 +12455,7 @@
 0.0.0.0 www.superinterstitial.com
 0.0.0.0 dnsdelegation.io
 0.0.0.0 fastclick.net
+0.0.0.0 yourmailservice.com
 0.0.0.0 nb.5.p2l.info
 0.0.0.0 prescription-drugs.easy-find.net
 0.0.0.0 counter.inetusa.com
