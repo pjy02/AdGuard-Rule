@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-03-13 20:45:06
+! Update time: 2026-03-14 09:40:24
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -380,6 +380,7 @@
 0.0.0.0 bn2-ris-prod-atm.trafficmanager.net
 0.0.0.0 cds21249.lon.llnw.net
 0.0.0.0 hk2sch130021634.wns.windows.com
+0.0.0.0 a.ads2.msn.com
 0.0.0.0 cds54.ory.llnw.net
 0.0.0.0 bn4sch101123110.wns.windows.com
 0.0.0.0 bn4sch101120814.wns.windows.com
@@ -566,6 +567,7 @@
 0.0.0.0 b.ads1.msn.com
 0.0.0.0 hk2sch130021554.wns.windows.com
 0.0.0.0 msedge.net
+0.0.0.0 a.rad.msn.com
 0.0.0.0 bn3sch020020322.wns.windows.com
 0.0.0.0 cds1.stn.llnw.net
 0.0.0.0 db3aqu.atdmt.com
@@ -677,6 +679,7 @@
 0.0.0.0 aidps.atdmt.com
 0.0.0.0 hk2sch130020924.wns.windows.com
 0.0.0.0 ac3.msn.com
+0.0.0.0 a.ads1.msn.com
 0.0.0.0 cds21321.lon.llnw.net
 0.0.0.0 cds815.lon.llnw.net
 0.0.0.0 bn3sch020010560.wns.windows.com
@@ -3367,6 +3370,7 @@
 0.0.0.0 myheartbuild.com
 0.0.0.0 osd-onead.cdn.hinet.net
 0.0.0.0 skin-care.1.p2l.info
+0.0.0.0 www.formalcenter.com
 0.0.0.0 www.silentgateck.site
 0.0.0.0 counter6.sextracker.com
 0.0.0.0 chatgpt-premium.com
@@ -3699,6 +3703,7 @@
 0.0.0.0 www.media-motor.com
 0.0.0.0 canadapost-postescanada.uwpackege.top
 0.0.0.0 tradedoubler.sonvideopro.com
+0.0.0.0 www.exambased.com
 0.0.0.0 jbaventures.cjt1.net
 0.0.0.0 ehg-magicalia.hitbox.com
 0.0.0.0 videobox.com
@@ -4833,7 +4838,6 @@
 0.0.0.0 anetit.tradedoubler.com
 0.0.0.0 www.phormlabs.com
 0.0.0.0 amplify.outbrain.com
-0.0.0.0 a.ads1.msn.com
 0.0.0.0 loltrain.com
 0.0.0.0 track.msadcenter.ybi.com
 0.0.0.0 vj.quanjingpay.com
@@ -5995,6 +5999,7 @@
 0.0.0.0 f4.p0y.com
 0.0.0.0 ad41.checkm8.com
 0.0.0.0 samsung3.solution.weborama.fr
+0.0.0.0 www.sailpirate.com
 0.0.0.0 i1.vaishnaviinterior.com
 0.0.0.0 ads163.console.adtarget.com.tr
 0.0.0.0 sonycomputerentertai.tt.omtrdc.net
@@ -6146,6 +6151,7 @@
 0.0.0.0 a.webwise.org
 0.0.0.0 www.tracklead.net
 0.0.0.0 n6.nskfyl.com
+0.0.0.0 www.sporttile.com
 0.0.0.0 servedbyadbutler.com
 0.0.0.0 cosmopolita.fr
 0.0.0.0 msnportal.112.2o7.net
@@ -8754,7 +8760,6 @@
 0.0.0.0 www.ladyclicks.ru
 0.0.0.0 hatsampledc.com
 0.0.0.0 ehg-mtv.hitbox.com
-0.0.0.0 a.ads2.msn.com
 0.0.0.0 shiiva.fr
 0.0.0.0 foxcounter.com
 0.0.0.0 adapi.ragapa.com
@@ -10388,6 +10393,7 @@
 0.0.0.0 neszmely.eu
 0.0.0.0 adv.webmd.com
 0.0.0.0 en.ultrex.ru
+0.0.0.0 www.nowreact.com
 0.0.0.0 www.kryzantor.uk
 0.0.0.0 www.clipsfan.com
 0.0.0.0 clickserve.cc-dt.com
@@ -11347,6 +11353,7 @@
 0.0.0.0 atdmt.com
 0.0.0.0 ehg-himedia.hitbox.com
 0.0.0.0 a-redirect.com
+0.0.0.0 www.simplyartful.com
 0.0.0.0 adv.virgilio.it
 0.0.0.0 cbsncaasports.112.2o7.net
 0.0.0.0 cnetaustralia.122.2o7.net
@@ -11543,7 +11550,6 @@
 0.0.0.0 dropbox-en.com
 0.0.0.0 adserver.livejournal.com
 0.0.0.0 netads.hotwired.com
-0.0.0.0 a.rad.msn.com
 0.0.0.0 scyxj.comfortykive.xyz
 0.0.0.0 ph-ad17.focalink.com
 0.0.0.0 ads.northjersey.com
@@ -12630,6 +12636,7 @@
 0.0.0.0 ads.bizhut.com
 0.0.0.0 getrelator.com
 0.0.0.0 adclick.g.doubleclick.net
+0.0.0.0 www.goldentopics.com
 0.0.0.0 int.sitestat.com
 0.0.0.0 tax-canada2023.co
 0.0.0.0 myhst2024.com
@@ -13310,6 +13317,7 @@
 0.0.0.0 mlefigaro.fr
 0.0.0.0 7500.com
 0.0.0.0 sync.audtd.com
+0.0.0.0 www.promoskills.com
 0.0.0.0 hostpowermedium.112.2o7.net
 0.0.0.0 ut1capitole.fr
 0.0.0.0 citrio.com
@@ -13350,6 +13358,7 @@
 0.0.0.0 oascentral.upi.com
 0.0.0.0 secserv.adtech.de
 0.0.0.0 www.istats.nl
+0.0.0.0 www.sellpetrol.com
 0.0.0.0 ads.smartclicks.com
 0.0.0.0 www.images.taboola.com
 0.0.0.0 countrystore.fr
@@ -13697,6 +13706,7 @@
 0.0.0.0 iad-usadmm-ds.dotomi.com
 0.0.0.0 ads.currantbun.com
 0.0.0.0 morefastermac.trade
+0.0.0.0 www.wildroostli.com
 0.0.0.0 ultracet.1.p2l.info
 0.0.0.0 shopkeep.fr
 0.0.0.0 cookies.cmpnet.com
