@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-03-31 09:55:49
+! Update time: 2026-03-31 21:05:35
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -8107,6 +8107,7 @@
 0.0.0.0 buyfioricetonline.7h.com
 0.0.0.0 telstra.imrworldwide.com
 0.0.0.0 track.msadcenter.wfm.com
+0.0.0.0 crcdn.org
 0.0.0.0 ntralpenedhy.pro
 0.0.0.0 adw.sapo.pt
 0.0.0.0 rf-arch.com
