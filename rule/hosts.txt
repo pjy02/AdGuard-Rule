@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-05-18 10:48:02
+! Update time: 2026-05-18 23:17:28
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -7358,6 +7358,7 @@
 0.0.0.0 appdev.addthis.com
 0.0.0.0 howtobuildsoftware.com
 0.0.0.0 static.vertamedia.com
+0.0.0.0 www.bloomifllowers.com
 0.0.0.0 new.lerian-nti.be
 0.0.0.0 ad.adtegrity.net
 0.0.0.0 oascentral.itbusiness.ca
@@ -8395,6 +8396,7 @@
 0.0.0.0 ads.veloxia.com
 0.0.0.0 epost.122.2o7.net
 0.0.0.0 server.as5000.com
+0.0.0.0 www.casinorankerhub.com
 0.0.0.0 www.googdiy.com
 0.0.0.0 www.courtneywalker.plus.com
 0.0.0.0 wikidevs.com
@@ -11077,6 +11079,7 @@
 0.0.0.0 a.1nimo.com
 0.0.0.0 disccglobal.112.2o7.net
 0.0.0.0 office-2023.net
+0.0.0.0 www.spojrzenia.com
 0.0.0.0 francelbleu.fr
 0.0.0.0 media.superstats.com
 0.0.0.0 aaam.fr
