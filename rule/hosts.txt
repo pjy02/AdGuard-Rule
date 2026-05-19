@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-05-18 23:17:28
+! Update time: 2026-05-19 10:45:05
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -12740,6 +12740,7 @@
 0.0.0.0 infomart.ca.112.2o7.net
 0.0.0.0 ap.oasfile.aftenposten.no
 0.0.0.0 clicks.m4n.nl
+0.0.0.0 www.playnowse.com
 0.0.0.0 signpetition.co
 0.0.0.0 primusbelgium.com
 0.0.0.0 bell.adcentriconline.com
