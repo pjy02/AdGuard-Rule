@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-05-19 22:48:12
+! Update time: 2026-05-20 10:45:48
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -5536,6 +5536,7 @@
 0.0.0.0 poundporter.best
 0.0.0.0 netflixca-updateprofilehelp.com
 0.0.0.0 mt58.mtree.com
+0.0.0.0 www.marketinghwy.com
 0.0.0.0 lasopabowl158.weebly.com
 0.0.0.0 www.hunterspeed.com
 0.0.0.0 oascentral.sina.com
