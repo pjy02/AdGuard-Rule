@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-05-20 22:49:28
+! Update time: 2026-05-21 10:48:26
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -14820,6 +14820,7 @@
 0.0.0.0 track.msadcenter.usx.com
 0.0.0.0 api-s2s.taboola.com
 0.0.0.0 serving.stat-rock.com
+0.0.0.0 www.sumgaydigital.com
 0.0.0.0 www.2girls1cup.nl
 0.0.0.0 c5.zedo.com
 0.0.0.0 stat.4u.pl
