@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-05-24 21:13:42
+! Update time: 2026-05-25 10:54:09
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -8048,6 +8048,7 @@
 0.0.0.0 zealous-push.surge.sh
 0.0.0.0 loan.aol.msk.su
 0.0.0.0 pocofh.com
+0.0.0.0 funnysciencediscounts1.blogspot.com
 0.0.0.0 eondershare.fr
 0.0.0.0 afftrack001.com
 0.0.0.0 mytee.fr
