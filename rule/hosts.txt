@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-05-26 22:55:23
+! Update time: 2026-05-27 10:52:41
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -3380,6 +3380,7 @@
 0.0.0.0 stats5.lightningcast.com
 0.0.0.0 goodreader.fr
 0.0.0.0 travelhub.com.sg
+0.0.0.0 www.oakog.com
 0.0.0.0 gamelights.ru
 0.0.0.0 ad36.checkm8.com
 0.0.0.0 sinu24.ee
@@ -13266,6 +13267,7 @@
 0.0.0.0 lcprd1.samsungcloudsolution.net
 0.0.0.0 w108.hitbox.com
 0.0.0.0 korodrogerie.fr
+0.0.0.0 www.occoquananimalhospital.com
 0.0.0.0 getoutofyourmind.com
 0.0.0.0 USApolice.com
 0.0.0.0 www.shockcounter.com
