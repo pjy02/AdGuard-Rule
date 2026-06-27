@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-06-26 22:12:37
+! Update time: 2026-06-27 10:40:19
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -2960,6 +2960,7 @@
 0.0.0.0 images.directtrack.com
 0.0.0.0 mx.adserver.yahoo.com
 0.0.0.0 thebrighttag.com
+0.0.0.0 www.eventflavor.com
 0.0.0.0 chienvoyageur.fr
 0.0.0.0 www.jeuxjackpotcasino.com
 0.0.0.0 views.m4n.nl
