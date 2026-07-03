@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-07-02 21:46:30
+! Update time: 2026-07-03 10:27:33
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -10458,6 +10458,7 @@
 0.0.0.0 www.ringtonepartner.com
 0.0.0.0 ad-audit.tubemogul.com
 0.0.0.0 www.counter12.sextracker.be
+0.0.0.0 ecommercegoodies.com
 0.0.0.0 www.launchbuffer.com
 0.0.0.0 magyarnep.me
 0.0.0.0 ads.uproar.com
