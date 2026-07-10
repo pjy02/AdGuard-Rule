@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-07-09 22:45:14
+! Update time: 2026-07-10 10:29:18
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -13186,6 +13186,7 @@
 0.0.0.0 te1.techgeetam.com
 0.0.0.0 trafficopen.com
 0.0.0.0 metrics.philly.com
+0.0.0.0 www.saintmc.com
 0.0.0.0 k2.karbilyazilim.com
 0.0.0.0 seasonale.1.p2l.info
 0.0.0.0 www.milkfountain.com
