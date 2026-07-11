@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-07-11 10:06:51
+! Update time: 2026-07-11 21:05:47
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -20057,6 +20057,7 @@
 127.0.0.1 creative.metalyzer.com
 127.0.0.1 widget-pixels.outbrain.com
 127.0.0.1 morgdog.springserve.com
+127.0.0.1 d9.flashtalking.com
 127.0.0.1 assets.iterable.com
 127.0.0.1 api.vidora.com
 127.0.0.1 taboolasyndication.com
