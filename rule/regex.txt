@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-07-15 21:24:18
+! Update time: 2026-07-16 10:05:05
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -184,6 +184,7 @@ advertisers.js|
 ||qchannel*.cn^
 ||tracker*.qcloud.com^
 ||adwords*.*^
+||onetrust.
 ||icast.
 ||gg.
 ||union.
@@ -196,7 +197,6 @@ advertisers.js|
 ||googleadservices.
 ||saxs.sina.
 ||adsame.
-||onetrust.
 ||adserver*.euroweeklynews.com^
 analytics-*.aasaam.com
 ||an.yandex.
@@ -339,6 +339,7 @@ analytics-*.aasaam.com
 ||121.204.246.*.gif
 ||button.blogs.yandex.
 ||zbb.bbb.*.pics^
+||servo-report.keepstreams.*^
 ||clickhouse-collector.*.prod.plat.agency^
 ||creative*.bidease.com^
 ||trck.*.prod-na.turntable.sonic.advertising.amazon.dev^
@@ -471,35 +472,6 @@ analytics-*.aasaam.com
 ||poptraf.
 ||v*.sitecounter.site^
 ||touch.yesim.
-||reachableads-av.*.amazonaws.com^
-||pijama.*.elasticbeanstalk.com^
-||ads*.dfiles.eu^
-||ad-host-backup-*.aliyuncs.com^
-||rgfftupf.
-||gamenguide.com*adbk
-||counter*.stat.ovh^
-||ads*.dfiles.ru^
-||ads.livetv*.me^
-||advert*.livesportmedia.eu^
-||142.91.159.
-||rtb-*.anysex.com^
-||23.109.87.
-||prebid-*.rubiconproject.com^
-Banner468x60
-||ads*.opensubtitles.org^
-rgmechanicsgames.com*VPN.exe
-||ads*.depositfiles.com^
-||ads*.depositfiles.org^
-||23.109.82.
-||fapnado.*.php|
-||itechpost.com*adbk
-@@||cdn*.porn300.com^
-||158.247.208.
-||buzzer.xhamster*
-|167.206.10.148^
-||fxhpaoxqyajvmdg.
-||advertising.civitai.
-||ad*.aginomoto.com
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
 ||ad-host-backup-*.s3.*.aliyuncs.com^
@@ -630,7 +602,6 @@ rgmechanicsgames.com*VPN.exe
 ||flurry.agentportal-*.yahoodns.net^
 ||host*.rigbyandpeller.com^
 ||analytics.*.sky.com^
-||servo-report.keepstreams.*^
 ||pangolin-sdk-toutiao*.com^
 ||collector-*.luigisbox.com^
 ||logreport-global-dual.cool*cloud.com^
@@ -755,4 +726,33 @@ rgmechanicsgames.com*VPN.exe
 ||aj2*.bid^
 ||union*.365inews.com^
 ||vns86.oss-*.aliyuncs.com^
+||reachableads-av.*.amazonaws.com^
+||pijama.*.elasticbeanstalk.com^
+||ads*.dfiles.eu^
+||ad-host-backup-*.aliyuncs.com^
+||rgfftupf.
+||gamenguide.com*adbk
+||counter*.stat.ovh^
+||ads*.dfiles.ru^
+||ads.livetv*.me^
+||advert*.livesportmedia.eu^
+||142.91.159.
+||rtb-*.anysex.com^
+||23.109.87.
+||prebid-*.rubiconproject.com^
+Banner468x60
+||ads*.opensubtitles.org^
+rgmechanicsgames.com*VPN.exe
+||ads*.depositfiles.com^
+||ads*.depositfiles.org^
+||23.109.82.
+||fapnado.*.php|
+||itechpost.com*adbk
+@@||cdn*.porn300.com^
+||158.247.208.
+||buzzer.xhamster*
+|167.206.10.148^
+||fxhpaoxqyajvmdg.
+||advertising.civitai.
+||ad*.aginomoto.com
 ||imgpfx.arenavision.
