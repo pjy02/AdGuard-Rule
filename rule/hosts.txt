@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-07-21 21:26:09
+! Update time: 2026-07-22 10:05:51
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -380,6 +380,7 @@
 0.0.0.0 bn2-ris-prod-atm.trafficmanager.net
 0.0.0.0 cds21249.lon.llnw.net
 0.0.0.0 hk2sch130021634.wns.windows.com
+0.0.0.0 a.ads2.msn.com
 0.0.0.0 cds54.ory.llnw.net
 0.0.0.0 bn4sch101123110.wns.windows.com
 0.0.0.0 bn4sch101120814.wns.windows.com
@@ -483,6 +484,7 @@
 0.0.0.0 cds20482.lcy.llnw.net
 0.0.0.0 hk2sch130021852.wns.windows.com
 0.0.0.0 cds840.lon.llnw.net
+0.0.0.0 ads1.msn.com
 0.0.0.0 hk2sch130021217.wns.windows.com
 0.0.0.0 cds406.lcy.llnw.net
 0.0.0.0 cds494.lcy.llnw.net
@@ -565,6 +567,7 @@
 0.0.0.0 b.ads1.msn.com
 0.0.0.0 hk2sch130021554.wns.windows.com
 0.0.0.0 msedge.net
+0.0.0.0 a.rad.msn.com
 0.0.0.0 bn3sch020020322.wns.windows.com
 0.0.0.0 cds1.stn.llnw.net
 0.0.0.0 db3aqu.atdmt.com
@@ -581,6 +584,7 @@
 0.0.0.0 v10-win.vortex.data.microsoft.com.akadns.net
 0.0.0.0 secure.adnxs.com
 0.0.0.0 cds407.fra.llnw.net
+0.0.0.0 b.rad.msn.com
 0.0.0.0 cds458.lcy.llnw.net
 0.0.0.0 win8.ipv6.microsoft.com
 0.0.0.0 spynetalt.microsoft.com
@@ -597,6 +601,7 @@
 0.0.0.0 cds483.lcy.llnw.net
 0.0.0.0 test.activity.windows.com
 0.0.0.0 hk2sch130021544.wns.windows.com
+0.0.0.0 adnxs.com
 0.0.0.0 cds836.lon.llnw.net
 0.0.0.0 bn4sch101123108.wns.windows.com
 0.0.0.0 cds21207.lon.llnw.net
@@ -646,6 +651,8 @@
 0.0.0.0 bn4sch101121714.wns.windows.com
 0.0.0.0 uks.b.prd.ags.trafficmanager.net
 0.0.0.0 cds1289.lon.llnw.net
+0.0.0.0 aka-cdn-ns.adtech.de
+0.0.0.0 bs.serving-sys.com
 0.0.0.0 cds21309.lon.llnw.net
 0.0.0.0 schemas.microsoft.akadns.net
 0.0.0.0 alpha.telemetry.microsoft.com
@@ -672,6 +679,7 @@
 0.0.0.0 aidps.atdmt.com
 0.0.0.0 hk2sch130020924.wns.windows.com
 0.0.0.0 ac3.msn.com
+0.0.0.0 a.ads1.msn.com
 0.0.0.0 cds21321.lon.llnw.net
 0.0.0.0 cds815.lon.llnw.net
 0.0.0.0 bn3sch020010560.wns.windows.com
@@ -696,6 +704,7 @@
 0.0.0.0 cds425.lcy.llnw.net
 0.0.0.0 hk2sch130021153.wns.windows.com
 0.0.0.0 onecollector.cloudapp.aria.akadns.net
+0.0.0.0 ads1.msads.net
 0.0.0.0 corp.sts.microsoft.com
 0.0.0.0 insideruser.trafficmanager.net
 0.0.0.0 cds1244.lon.llnw.net
@@ -2594,7 +2603,6 @@
 0.0.0.0 diginet.112.2o7.net
 0.0.0.0 kt4.kliptracker.com
 0.0.0.0 www.monkikitchen.com
-0.0.0.0 ads1.msn.com
 0.0.0.0 ads.adsbookie.com
 0.0.0.0 ehg-commjun.hitbox.com
 0.0.0.0 go.padstm.com
@@ -2980,6 +2988,7 @@
 0.0.0.0 ads.program3.com
 0.0.0.0 www.goldendoodlez.com
 0.0.0.0 r.turn.com
+0.0.0.0 www.dutchoutlet.com
 0.0.0.0 residence.bunkerhilltradingco.info
 0.0.0.0 oz.valueclick.ne.jp
 0.0.0.0 adserver.100free.com
@@ -3734,7 +3743,6 @@
 0.0.0.0 reskins.fr
 0.0.0.0 themusicnetwork.co.uk
 0.0.0.0 te.nytdigital.com
-0.0.0.0 ads1.msads.net
 0.0.0.0 imotors.fr
 0.0.0.0 minden-egyben.com
 0.0.0.0 strawpoii.me
@@ -4952,7 +4960,6 @@
 0.0.0.0 www.phormlabs.com
 0.0.0.0 amplify.outbrain.com
 0.0.0.0 www.isavs.com
-0.0.0.0 a.ads1.msn.com
 0.0.0.0 loltrain.com
 0.0.0.0 track.msadcenter.ybi.com
 0.0.0.0 vj.quanjingpay.com
@@ -5348,6 +5355,7 @@
 0.0.0.0 webload101.hitbox.com
 0.0.0.0 protonix.shengen.ru
 0.0.0.0 puppygames.fr
+0.0.0.0 www.cruzresorts.com
 0.0.0.0 imitrex.4.p2l.info
 0.0.0.0 gcirm.rgj.com
 0.0.0.0 pub-251d6c694a0641dd9e95aeca9e3219e8.r2.dev
@@ -8202,7 +8210,6 @@
 0.0.0.0 al.5.p2l.info
 0.0.0.0 imserv00x.adtech.us
 0.0.0.0 www.adtrix.com
-0.0.0.0 adnxs.com
 0.0.0.0 admonkey.dapper.net
 0.0.0.0 counter34.bravenet.com
 0.0.0.0 ads108.console.adtarget.com.tr
@@ -9070,7 +9077,6 @@
 0.0.0.0 www.ladyclicks.ru
 0.0.0.0 hatsampledc.com
 0.0.0.0 ehg-mtv.hitbox.com
-0.0.0.0 a.ads2.msn.com
 0.0.0.0 shiiva.fr
 0.0.0.0 foxcounter.com
 0.0.0.0 adapi.ragapa.com
@@ -9800,7 +9806,6 @@
 0.0.0.0 paradise.homemortgageblog.info
 0.0.0.0 windows-several-update.com
 0.0.0.0 syndication.exoclick.com
-0.0.0.0 b.rad.msn.com
 0.0.0.0 canuckmethod.com
 0.0.0.0 ads.courierpostonline.com
 0.0.0.0 oascentral.houstonpress.com
@@ -11363,6 +11368,7 @@
 0.0.0.0 pfepfe.cc
 0.0.0.0 trafsearchonline.com
 0.0.0.0 guiltygear.fr
+0.0.0.0 www.webdesignmetric.com
 0.0.0.0 gpaper120.112.2o7.net
 0.0.0.0 mcleaks.fr
 0.0.0.0 telefoniabologna.it
@@ -11852,7 +11858,6 @@
 0.0.0.0 ldglob02.adtech.fr
 0.0.0.0 ad.kataweb.it
 0.0.0.0 reklam.arabul.com
-0.0.0.0 bs.serving-sys.com
 0.0.0.0 tongji.baidu.com
 0.0.0.0 dcads.sina.com.cn
 0.0.0.0 ccb.myzen.co.uk
@@ -12001,7 +12006,6 @@
 0.0.0.0 dropbox-en.com
 0.0.0.0 adserver.livejournal.com
 0.0.0.0 netads.hotwired.com
-0.0.0.0 a.rad.msn.com
 0.0.0.0 scyxj.comfortykive.xyz
 0.0.0.0 ph-ad17.focalink.com
 0.0.0.0 ads.northjersey.com
@@ -14602,7 +14606,6 @@
 0.0.0.0 www.pubdirecte.com
 0.0.0.0 movieads.imgs.sapo.pt
 0.0.0.0 www.rtcode.com
-0.0.0.0 aka-cdn-ns.adtech.de
 0.0.0.0 c.at.msn.com
 0.0.0.0 cloudadservers.com
 0.0.0.0 tr.outbrain.com
