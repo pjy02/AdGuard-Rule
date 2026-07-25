@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-07-24 21:24:42
+! Update time: 2026-07-25 10:08:18
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -11876,6 +11876,7 @@
 0.0.0.0 www.everifymatch.com
 0.0.0.0 ad.ae.doubleclick.net
 0.0.0.0 pt21na.com
+0.0.0.0 www.bocastyle.com
 0.0.0.0 projectpoi.com
 0.0.0.0 hb.mediafuse.com
 0.0.0.0 www.expolearn.com
@@ -12635,6 +12636,7 @@
 0.0.0.0 cguardai.com
 0.0.0.0 www.turn.com
 0.0.0.0 opentable.tt.omtrdc.net
+0.0.0.0 www.roundtopbooks.com
 0.0.0.0 www.paseyourself.com
 0.0.0.0 www.myseostats.com
 0.0.0.0 wwb.hitbox.com
