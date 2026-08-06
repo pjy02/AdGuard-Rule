@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-08-05 21:54:02
+! Update time: 2026-08-06 10:02:51
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -3420,6 +3420,7 @@
 0.0.0.0 blockchaintop.nl
 0.0.0.0 f3.p0y.com
 0.0.0.0 www.pathforpoints.com
+0.0.0.0 www.emprenderimportaperu.com
 0.0.0.0 harpo.122.2o7.net
 0.0.0.0 ghmtr.hit.gemius.pl
 0.0.0.0 lesview.com
@@ -13802,6 +13803,7 @@
 0.0.0.0 stats.dziennik.pl
 0.0.0.0 lifenoonkid.com
 0.0.0.0 ads.floridatoday.com
+0.0.0.0 mks98.com
 0.0.0.0 byowner.fr
 0.0.0.0 yummyfoodallover.com
 0.0.0.0 c.de.msn.com
