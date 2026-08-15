@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-08-15 08:54:50
+! Update time: 2026-08-15 20:25:53
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -58,6 +58,7 @@
 ||avito.avito.www.avito.
 ||avito.avito.avito.
 ||yandex.pay.avito.
+||report.*.qq.com^
 ||da.hornbach.*^
 ||dm-*.toutiao.com^
 ||adsystem*.*^
@@ -118,7 +119,6 @@
 ||qchannel*.cn^
 ||tracker*.qcloud.com^
 ||adwords*.*^
-||report.*.qq.com^
 ||allyes.
 ||icast.
 ||gg.
@@ -197,6 +197,34 @@ advertisers.js|
 ||yazhouyu.
 ||advertise.
 ||ap*.pl520.com^
+||reachableads-av.*.amazonaws.com^
+||pijama.*.elasticbeanstalk.com^
+||ads*.dfiles.eu^
+||ad-host-backup-*.aliyuncs.com^
+||rgfftupf.
+||gamenguide.com*adbk
+||counter*.stat.ovh^
+||ads*.dfiles.ru^
+||ads.livetv*.me^
+||advert*.livesportmedia.eu^
+||142.91.159.
+||rtb-*.anysex.com^
+||23.109.87.
+||prebid-*.rubiconproject.com^
+Banner468x60
+||ads*.opensubtitles.org^
+rgmechanicsgames.com*VPN.exe
+||ads*.depositfiles.com^
+||ads*.depositfiles.org^
+||23.109.82.
+||fapnado.*.php|
+||itechpost.com*adbk
+@@||cdn*.porn300.com^
+||158.247.208.
+||buzzer.xhamster*
+|167.206.10.148^
+||fxhpaoxqyajvmdg.
+||advertising.civitai.
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
 ||ad-host-backup-*.s3.*.aliyuncs.com^
@@ -463,7 +491,6 @@ advertisers.js|
 ||iad-*.braze.com^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||bjsvp*.space^
-||telemetry.*.pvp.net^
 ||analytics-v*.eip.telegraph.co.uk^
 ||gtlpa*.com^
 ||gbxreport-*.wf.com^
@@ -710,6 +737,7 @@ analytics-*.aasaam.com
 ||thegreatesthits.
 ||track-*.hungrypanda.co^
 ||tracking-*.trnox.com^
+||telemetry.*.pvp.net^
 ||sgtm.wimdu.
 ||snowplow-collector.
 ||www.fuze-hill*.xyz^
@@ -727,33 +755,5 @@ analytics-*.aasaam.com
 ||poptraf.
 ||v*.sitecounter.site^
 ||touch.yesim.
-||reachableads-av.*.amazonaws.com^
-||pijama.*.elasticbeanstalk.com^
-||ads*.dfiles.eu^
-||ad-host-backup-*.aliyuncs.com^
-||rgfftupf.
-||gamenguide.com*adbk
-||counter*.stat.ovh^
-||ads*.dfiles.ru^
-||ads.livetv*.me^
-||advert*.livesportmedia.eu^
-||142.91.159.
-||rtb-*.anysex.com^
-||23.109.87.
-||prebid-*.rubiconproject.com^
-Banner468x60
-||ads*.opensubtitles.org^
-rgmechanicsgames.com*VPN.exe
-||ads*.depositfiles.com^
-||ads*.depositfiles.org^
-||23.109.82.
-||fapnado.*.php|
-||itechpost.com*adbk
-@@||cdn*.porn300.com^
-||158.247.208.
-||buzzer.xhamster*
-|167.206.10.148^
-||fxhpaoxqyajvmdg.
-||advertising.civitai.
 ||ad*.aginomoto.com
 ||imgpfx.arenavision.
