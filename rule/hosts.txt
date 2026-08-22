@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-08-21 20:34:48
+! Update time: 2026-08-22 08:54:35
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -3384,6 +3384,7 @@
 0.0.0.0 www.balassst.com
 0.0.0.0 track.msadcenter.kfz.com
 0.0.0.0 r3.ritikajoshi.com
+0.0.0.0 www.thermature.com
 0.0.0.0 ad25.checkm8.com
 0.0.0.0 ih2.gamecopyworld.com
 0.0.0.0 www.bookstadium.com
@@ -7764,6 +7765,7 @@
 0.0.0.0 docs.ukr.net.ssl2.in
 0.0.0.0 mail.imamu.edu.sa
 0.0.0.0 www.goggle.com
+0.0.0.0 www.transcet.com
 0.0.0.0 www.webdevotee.com
 0.0.0.0 bcp.crwdcntrl.net
 0.0.0.0 fbd.de
@@ -8636,6 +8638,7 @@
 0.0.0.0 via.oewabox.at
 0.0.0.0 track.roularta.adhese.com
 0.0.0.0 neumanns-installation.de
+0.0.0.0 2533542.cc
 0.0.0.0 benefitsorganic.com
 0.0.0.0 ad.prv.pl
 0.0.0.0 ccieurope.fr
@@ -9467,6 +9470,7 @@
 0.0.0.0 askto.net
 0.0.0.0 redirectchannel.net
 0.0.0.0 track.rediff.com
+0.0.0.0 www.unclaimedbaggag.com
 0.0.0.0 u3102.47.spylog.com
 0.0.0.0 iswwwup.com
 0.0.0.0 ehg-viacom.hitbox.com
@@ -10547,6 +10551,7 @@
 0.0.0.0 cnn.122.2o7.net
 0.0.0.0 ads.bluemountain.com
 0.0.0.0 mlbcolorado.112.2o7.net
+0.0.0.0 www.utgzlogin.com
 0.0.0.0 www.littledevildoubt.com
 0.0.0.0 counter25.bravenet.com
 0.0.0.0 y0.extreme-dm.com
@@ -12601,6 +12606,7 @@
 0.0.0.0 hotelissimo.fr
 0.0.0.0 hlpurs.live
 0.0.0.0 www.exteriorteam.com
+0.0.0.0 supportservice-dragonfly.duckdns.org
 0.0.0.0 d5p.de17a.com
 0.0.0.0 ads.mediaodyssey.com
 0.0.0.0 lesindesradio.fr
@@ -13770,6 +13776,7 @@
 0.0.0.0 www.freecontent.bid
 0.0.0.0 hirfolyam24.blogspot.hu
 0.0.0.0 nation-news.com
+0.0.0.0 purolatorkbtdh.eu.cc
 0.0.0.0 syncdownloading.com
 0.0.0.0 oascentral.canadianliving.com
 0.0.0.0 o8.aus.cc
@@ -15370,7 +15377,6 @@
 127.0.0.1 beacons.extremereach.io
 127.0.0.1 pxl.connexity.net
 127.0.0.1 uw.evm1.stackadapt.com
-127.0.0.1 cs.yieldoptimizer.com
 127.0.0.1 rtd.tubemogul.com
 127.0.0.1 wlb1.cdn.stickyadstv.com.akadns.net
 127.0.0.1 ads2.servebom.com
@@ -18226,7 +18232,6 @@
 127.0.0.1 dpm.demdex.net
 127.0.0.1 uconnect.tealiumiq.com
 127.0.0.1 gc.ds.duapps.com
-127.0.0.1 tdameritrade.demdex.net
 127.0.0.1 analytics.zg-api.com
 127.0.0.1 protect.geoedge.be
 127.0.0.1 app-abc.marketo.com
@@ -18381,7 +18386,6 @@
 127.0.0.1 priv-policy.imrworldwide.com
 127.0.0.1 a1382.casalemedia.com
 127.0.0.1 advertising.yahoo.com
-127.0.0.1 beaconserver-ce-vpc0-1909323404.us-west-2.elb.amazonaws.com
 127.0.0.1 rtb-csync-itx5.smartadserver.com
 127.0.0.1 pulse.inmobi.com
 127.0.0.1 update.indexww.com
