@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-08-22 08:54:35
+! Update time: 2026-08-22 20:26:53
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -15377,6 +15377,7 @@
 127.0.0.1 beacons.extremereach.io
 127.0.0.1 pxl.connexity.net
 127.0.0.1 uw.evm1.stackadapt.com
+127.0.0.1 cs.yieldoptimizer.com
 127.0.0.1 rtd.tubemogul.com
 127.0.0.1 wlb1.cdn.stickyadstv.com.akadns.net
 127.0.0.1 ads2.servebom.com
@@ -18232,6 +18233,7 @@
 127.0.0.1 dpm.demdex.net
 127.0.0.1 uconnect.tealiumiq.com
 127.0.0.1 gc.ds.duapps.com
+127.0.0.1 tdameritrade.demdex.net
 127.0.0.1 analytics.zg-api.com
 127.0.0.1 protect.geoedge.be
 127.0.0.1 app-abc.marketo.com
@@ -18386,6 +18388,7 @@
 127.0.0.1 priv-policy.imrworldwide.com
 127.0.0.1 a1382.casalemedia.com
 127.0.0.1 advertising.yahoo.com
+127.0.0.1 beaconserver-ce-vpc0-1909323404.us-west-2.elb.amazonaws.com
 127.0.0.1 rtb-csync-itx5.smartadserver.com
 127.0.0.1 pulse.inmobi.com
 127.0.0.1 update.indexww.com
