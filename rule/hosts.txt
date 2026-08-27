@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-08-27 14:48:52
+! Update time: 2026-08-28 05:36:58
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -2667,6 +2667,7 @@
 0.0.0.0 data2.perf.overture.com
 0.0.0.0 instabook.fr
 0.0.0.0 api.adsymptotic.com
+0.0.0.0 www.autotra.com
 0.0.0.0 wtp101.com
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 analytics.onesearch.id
@@ -7896,6 +7897,7 @@
 0.0.0.0 nimes-olympique.fr
 0.0.0.0 ticketspy.fr
 0.0.0.0 c.be.msn.com
+0.0.0.0 www.texasmyxoomenergy.com
 0.0.0.0 medianet-match.dotomi.com
 0.0.0.0 quickfilmz.com
 0.0.0.0 ads.people.com.cn
@@ -8702,6 +8704,7 @@
 0.0.0.0 www.anatol.com
 0.0.0.0 gcirm.stargazette.com
 0.0.0.0 www.webmicrostores.com
+0.0.0.0 www.ticketspiket.com
 0.0.0.0 script.crsspxl.com
 0.0.0.0 colorfulnotebooks.com
 0.0.0.0 makerblog.fr
@@ -12096,6 +12099,7 @@
 0.0.0.0 nm.5.p2l.info
 0.0.0.0 www.friend-greetings.net
 0.0.0.0 blackqpid.org.uk
+0.0.0.0 www.ellesalonhb.com
 0.0.0.0 leojblog.com
 0.0.0.0 nxtscrn.adbureau.net
 0.0.0.0 s.console.adtarget.com.tr
@@ -12871,6 +12875,7 @@
 0.0.0.0 tracking.percentmobile.com
 0.0.0.0 derstand.oewabox.at
 0.0.0.0 ad2.bannerhost.ru
+0.0.0.0 www.ultimarerewards.com
 0.0.0.0 track.msadcenter.iuh.com
 0.0.0.0 voipwise.fr
 0.0.0.0 getmyads.com
@@ -14558,6 +14563,7 @@
 0.0.0.0 ad.jp.doubleclick.net
 0.0.0.0 vsii.spinbox.net
 0.0.0.0 v8engine.pinsightmedia.com
+0.0.0.0 www.cdinstagram.com
 0.0.0.0 www.webtj.net
 0.0.0.0 filthycricket.com
 0.0.0.0 www.i-younet.ne.jp
@@ -15319,6 +15325,7 @@
 0.0.0.0 analytics.kwebsoft.com
 0.0.0.0 freestats.com
 0.0.0.0 linkcounter.pornosite.com
+0.0.0.0 www.livetickettv.com
 0.0.0.0 COMpolice.com
 0.0.0.0 mediatrack.revenue.net
 0.0.0.0 api.optnmnstr.com
@@ -18396,7 +18403,6 @@
 127.0.0.1 priv-policy.imrworldwide.com
 127.0.0.1 a1382.casalemedia.com
 127.0.0.1 advertising.yahoo.com
-127.0.0.1 beaconserver-ce-vpc0-1909323404.us-west-2.elb.amazonaws.com
 127.0.0.1 rtb-csync-itx5.smartadserver.com
 127.0.0.1 pulse.inmobi.com
 127.0.0.1 update.indexww.com
