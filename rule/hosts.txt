@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-09-16 00:04:18
+! Update time: 2026-09-16 10:56:10
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -7129,6 +7129,7 @@
 0.0.0.0 helpint.mywebsearch.com
 0.0.0.0 tracking.quisma.com
 0.0.0.0 w144.hitbox.com
+0.0.0.0 www.aplogia.com
 0.0.0.0 b.ads2.msn.com
 0.0.0.0 www.pickupclean.com
 0.0.0.0 www.brandsclothingco.com
@@ -15198,6 +15199,7 @@
 0.0.0.0 www.adcash.com
 0.0.0.0 networkingproperty.com
 0.0.0.0 postmasterdirect.com
+0.0.0.0 www.beheerflvsebox.com
 0.0.0.0 ztriskl.divisionfair.homes
 0.0.0.0 www.poukladanyswiat.com
 0.0.0.0 launch.adserver.yahoo.com
