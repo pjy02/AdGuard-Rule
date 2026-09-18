@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-09-18 00:03:43
+! Update time: 2026-09-18 10:47:06
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -6133,6 +6133,7 @@
 0.0.0.0 oclopes.fr
 0.0.0.0 divx.112.2o7.net
 0.0.0.0 admin.digitalacre.com
+0.0.0.0 www.damncheapguns.com
 0.0.0.0 rtb28.adscience.nl
 0.0.0.0 ma.wp.pl
 0.0.0.0 www.autohipnose.com
@@ -9089,6 +9090,7 @@
 0.0.0.0 www.rtkmyz.cfd
 0.0.0.0 adserver.corusradionetwork.com
 0.0.0.0 rootbuzz.com
+0.0.0.0 invited.blueconferencefield.com
 0.0.0.0 7zip.fr
 0.0.0.0 ads.adk2.com
 0.0.0.0 dontwatch.us
@@ -12207,6 +12209,7 @@
 0.0.0.0 ph-ad13.focalink.com
 0.0.0.0 foodeveryhour.com
 0.0.0.0 adopt.precisead.com
+0.0.0.0 www.bjseverlastingoils.com
 0.0.0.0 nationalpost.112.2o7.net
 0.0.0.0 adengine.rt.ru
 0.0.0.0 w133.hitbox.com
