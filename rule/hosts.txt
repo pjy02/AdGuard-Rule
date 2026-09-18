@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-09-18 10:47:06
+! Update time: 2026-09-18 23:40:06
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -13525,6 +13525,7 @@
 0.0.0.0 www.shockcounter.com
 0.0.0.0 live-en.com
 0.0.0.0 www30.glam.com
+0.0.0.0 bowlinvit.site
 0.0.0.0 www.smspop.com
 0.0.0.0 www-stats.unipi.it
 0.0.0.0 mychoicerewards.com
