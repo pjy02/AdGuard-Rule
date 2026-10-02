@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-10-02 11:40:33
+! Update time: 2026-10-03 01:17:08
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -196,40 +196,6 @@ advertisers.js|
 ||saxs.sina.
 ||adsame.
 ||onetrust.
-||report.*.qq.com^
-||reachableads-av.*.amazonaws.com^
-||pijama.*.elasticbeanstalk.com^
-||ads*.dfiles.eu^
-||valentine.xhamster.*^
-||ad-host-backup-*.aliyuncs.com^
-||rgfftupf.
-||gamenguide.com*adbk
-||counter*.stat.ovh^
-||util-*.simply-hentai.com^
-||ads*.dfiles.ru^
-||ads.livetv*.me^
-||advert*.livesportmedia.eu^
-||142.91.159.
-||allsportsflix.
-||rtb-*.anysex.com^
-||23.109.87.
-||prebid-*.rubiconproject.com^
-Banner468x60
-||ads*.opensubtitles.org^
-rgmechanicsgames.com*VPN.exe
-||ads*.depositfiles.com^
-||ads*.depositfiles.org^
-||23.109.82.
-||get-me-wow.
-||fapnado.*.php|
-||itechpost.com*adbk
-@@||cdn*.porn300.com^
-||158.247.208.
-||cas.*.criteo.com^
-||buzzer.xhamster*
-|167.206.10.148^
-||fxhpaoxqyajvmdg.
-||advertising.civitai.
 ||pangolin-sdk-toutiao*.com^
 ||collector-*.luigisbox.com^
 ||ping*.qq.com^
@@ -238,6 +204,7 @@ rgmechanicsgames.com*VPN.exe
 ||dn*.ixinwei.com^
 ||sd.yhzzzs*.com^
 ||w*.*skwai.com^
+||ads*.dfiles.ru^
 ||stun.*.kugou.com^
 ||qn-*pcdn.cdn.huya.com^
 ||zazgiyoh*.world^
@@ -251,11 +218,13 @@ rgmechanicsgames.com*VPN.exe
 ||www.xxmh*.com^
 ||ax.*.ifeng.com^
 ||ajx*.online^
+||cas.*.criteo.com^
 ||n*adserv.com^
 ||zbc6hy*.live^
 ||asd8900.oss-*.aliyuncs.com^
 ||ky891.oss-*.aliyuncs.com^
 ||mobileanalytics.*.amazonaws.com^
+||ads*.dfiles.eu^
 ||ads.*.yahoo.com^
 ||a*.chajiaotong.com^
 ||gads*s.com^
@@ -302,6 +271,8 @@ rgmechanicsgames.com*VPN.exe
 ||ad.kisstvshow.*^
 ||widgets.*.webengage.com^
 ||zabdybod*.club^
+||ads*.depositfiles.com^
+||ads*.depositfiles.org^
 ||hads*s.com^
 ||aj3*.bid^
 ||aj1*.online^
@@ -330,7 +301,7 @@ rgmechanicsgames.com*VPN.exe
 ||bdlm*.hc360.com^
 ||aj1*.xyz^
 ||chat*-ce.chatdealer.jp^
-||ya*.dwstatic.com^
+||util-*.simply-hentai.com^
 ||collector-*.px-cloud.net^
 ||iad-*.braze.com^
 ||bjsvp*.space^
@@ -718,6 +689,7 @@ analytics-*.aasaam.com
 ||dualstack.adbert-web-lbs-*.elb.amazonaws.com^
 ||ad*.bilgin.pro^
 ||tnc*.tiktokv.com^
+||report.*.qq.com^
 ||px*.mediahills.ru^
 ||e.missav.
 ||log-*.isnssdk.com^
@@ -747,6 +719,7 @@ analytics-*.aasaam.com
 |a.klaviyo.com^
 ||ad.*.doubleclick.net^
 ||analytics*.carambo.la^
+||ya*.dwstatic.com^
 ||thegreatesthits.
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||sgtm.wimdu.
@@ -759,6 +732,33 @@ analytics-*.aasaam.com
 ||collector*.ex.co^
 ||touch.yesim.
 ||v*.sitecounter.site^
+||reachableads-av.*.amazonaws.com^
+||pijama.*.elasticbeanstalk.com^
+||valentine.xhamster.*^
+||ad-host-backup-*.aliyuncs.com^
+||rgfftupf.
+||gamenguide.com*adbk
+||counter*.stat.ovh^
+||ads.livetv*.me^
+||advert*.livesportmedia.eu^
+||142.91.159.
+||allsportsflix.
+||rtb-*.anysex.com^
+||23.109.87.
+||prebid-*.rubiconproject.com^
+Banner468x60
+||ads*.opensubtitles.org^
+rgmechanicsgames.com*VPN.exe
+||23.109.82.
+||get-me-wow.
+||fapnado.*.php|
+||itechpost.com*adbk
+@@||cdn*.porn300.com^
+||158.247.208.
+||buzzer.xhamster*
+|167.206.10.148^
+||fxhpaoxqyajvmdg.
+||advertising.civitai.
 ||ad*.aginomoto.com
 ||imgpfx.arenavision.
 ||entry-verifed-cdn.
