@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-10-03 01:17:08
+! Update time: 2026-10-03 11:25:17
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -118,13 +118,32 @@
 ||qchannel*.cn^
 ||tracker*.qcloud.com^
 ||adwords*.*^
+||allyes.
+||icast.
+||gg.
+||union.
+||ad.
+||ads.
+||cnzz.
+||adsfile.
+||adserver.
+||adpic.
+||sax.sina.
+||biz5.
+||adsense.
+||xmindchina.
+||ggg.
+||admaster.
+||googleadservices.
+||saxs.sina.
+||adsame.
+||onetrust.
 ||adx.
 ||adx-
 ||adsfs.
 ||adsdk.
 MRelateFeedAd
 ||adsmind.
-||adsfile.
 ||bigdata.
 ||sell*.etlong.com^
 ||smartads.
@@ -134,11 +153,9 @@ MRelateFeedAd
 ||adstats.
 ||toujing*.top^
 ||popup.*.js*
-||ggg.
 ||advert.
 ||irs01.
 ||advert-
-||allyes.
 ||adcolony.
 ||advertising.
 ||showad*
@@ -158,22 +175,18 @@ getAds|
 ||appjiagu.
 ||img.piaosugo.com*.jpg
 ||adsmis.
-||adserver.
 ||sense-*.tapdb.net^
 ||pc.min.js*
 ||minero-proxy-*now.sh
 ||pagead2.
 ||guangyaoli.
-||adsense.
 ||ading.
 ||googleads.
 ||umengacs.
 ||ads-
-||ad.
 piao.js|
 oHead6205.appendChild( oScript6205);
 ||ad-
-||ads.
 ||vali-g1.cp31.ott.cibntv.net*.mp4
 ||adxapi.
 ||adsence.
@@ -183,19 +196,6 @@ advertisers.js|
 ||yazhouyu.
 ||advertise.
 ||ap*.pl520.com^
-||icast.
-||gg.
-||union.
-||adpic.
-||cnzz.
-||sax.sina.
-||biz5.
-||xmindchina.
-||admaster.
-||googleadservices.
-||saxs.sina.
-||adsame.
-||onetrust.
 ||pangolin-sdk-toutiao*.com^
 ||collector-*.luigisbox.com^
 ||ping*.qq.com^
@@ -204,7 +204,6 @@ advertisers.js|
 ||dn*.ixinwei.com^
 ||sd.yhzzzs*.com^
 ||w*.*skwai.com^
-||ads*.dfiles.ru^
 ||stun.*.kugou.com^
 ||qn-*pcdn.cdn.huya.com^
 ||zazgiyoh*.world^
@@ -224,7 +223,6 @@ advertisers.js|
 ||asd8900.oss-*.aliyuncs.com^
 ||ky891.oss-*.aliyuncs.com^
 ||mobileanalytics.*.amazonaws.com^
-||ads*.dfiles.eu^
 ||ads.*.yahoo.com^
 ||a*.chajiaotong.com^
 ||gads*s.com^
@@ -271,8 +269,6 @@ advertisers.js|
 ||ad.kisstvshow.*^
 ||widgets.*.webengage.com^
 ||zabdybod*.club^
-||ads*.depositfiles.com^
-||ads*.depositfiles.org^
 ||hads*s.com^
 ||aj3*.bid^
 ||aj1*.online^
@@ -360,6 +356,7 @@ analytics-*.aasaam.com
 ||sax*.sina.
 ||putrr*.com^
 ||67.21.92.*.gif
+||pijama.*.elasticbeanstalk.com^
 ||ad*.wisenut.co.kr^
 ||ali-bj-pcdn-*.biliapi.net^
 ||tccd.douglas.
@@ -733,12 +730,13 @@ analytics-*.aasaam.com
 ||touch.yesim.
 ||v*.sitecounter.site^
 ||reachableads-av.*.amazonaws.com^
-||pijama.*.elasticbeanstalk.com^
+||ads*.dfiles.eu^
 ||valentine.xhamster.*^
 ||ad-host-backup-*.aliyuncs.com^
 ||rgfftupf.
 ||gamenguide.com*adbk
 ||counter*.stat.ovh^
+||ads*.dfiles.ru^
 ||ads.livetv*.me^
 ||advert*.livesportmedia.eu^
 ||142.91.159.
@@ -749,6 +747,8 @@ analytics-*.aasaam.com
 Banner468x60
 ||ads*.opensubtitles.org^
 rgmechanicsgames.com*VPN.exe
+||ads*.depositfiles.com^
+||ads*.depositfiles.org^
 ||23.109.82.
 ||get-me-wow.
 ||fapnado.*.php|
@@ -760,5 +760,5 @@ rgmechanicsgames.com*VPN.exe
 ||fxhpaoxqyajvmdg.
 ||advertising.civitai.
 ||ad*.aginomoto.com
-||imgpfx.arenavision.
 ||entry-verifed-cdn.
+||imgpfx.arenavision.
