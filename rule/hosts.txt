@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-10-13 04:46:36
+! Update time: 2026-10-13 13:04:05
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -4423,6 +4423,7 @@
 0.0.0.0 jbeet.cjt1.net
 0.0.0.0 0stats.com
 0.0.0.0 e-2dj6wjloagc5oco.stats.esomniture.com
+0.0.0.0 reminderannual2reward.com
 0.0.0.0 ads257.console.adtarget.com.tr
 0.0.0.0 watchpro.fr
 0.0.0.0 protection.DKpolice.com
@@ -18441,7 +18442,6 @@
 127.0.0.1 priv-policy.imrworldwide.com
 127.0.0.1 a1382.casalemedia.com
 127.0.0.1 advertising.yahoo.com
-127.0.0.1 beaconserver-ce-vpc0-1909323404.us-west-2.elb.amazonaws.com
 127.0.0.1 rtb-csync-itx5.smartadserver.com
 127.0.0.1 pulse.inmobi.com
 127.0.0.1 update.indexww.com
