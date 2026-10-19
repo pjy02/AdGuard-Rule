@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-10-19 10:54:30
+! Update time: 2026-10-20 02:11:33
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -69,10 +69,8 @@ MRelateFeedAd
 ||sell*.etlong.com^
 ||smartads.
 ||adshare.
-||dm-*.toutiao.com^
 ||player.letvcdn.com*.swf|
 ||d*.wanzhuang.com^
-||bj*.9669.cn^
 ||adstats.
 ||toujing*.top^
 ||popup.*.js*
@@ -90,7 +88,6 @@ MRelateFeedAd
 ||imageadv.
 ||m-vali.cp31.ott.cibntv.net*.mp4
 ||epochtimes^
-||ads*-normal-hl.zijieapi.com^
 ||adapi.
 getAds|
 ||adsfileretry.
@@ -103,11 +100,9 @@ getAds|
 ||adsmis.
 ||adserver.
 ||sense-*.tapdb.net^
-||ping.*.sogou.com^
 ||pc.min.js*
 ||minero-proxy-*now.sh
 ||pagead2.
-||p*-ad-sign.byteimg.com^
 ||guangyaoli.
 ||adsense.
 ||ading.
@@ -121,7 +116,6 @@ oHead6205.appendChild( oScript6205);
 ||ads.
 ||vali-g1.cp31.ott.cibntv.net*.mp4
 ||adxapi.
-||gg*.miguvideo.com^
 ||adsence.
 ||unityads.
 advertisers.js|
@@ -129,7 +123,6 @@ advertisers.js|
 ||yazhouyu.
 ||advertise.
 ||ap*.pl520.com^
-||tracker*.qcloud.com^
 ||icast.
 ||gg.
 ||union.
@@ -143,7 +136,68 @@ advertisers.js|
 ||saxs.sina.
 ||adsame.
 ||onetrust.
+||da.hornbach.*^
+||dm-*.toutiao.com^
+||adsystem*.*^
+||analysis*.*^
+||bj*.9669.cn^
+||ad-*.net^
+||log.*.hunantv.com^
+||admaster*.*^
+||webads.*^
+||admarvel*.*^
+||ja*.gamersky.com^
+||omniture*.*^
+||vente-unique.*^
+||assoc-amazon.*^
+||omgmta*.*^
+||tuiguang.*^
+||adi*.cnool.net^
+||tr.*.espmp-*fr.net^
+@@||profile*.se.360.cn^
+||gostats.*^
+||adserver.*^
+||web-stat.*^
+||imglnk*.com^
+||adsage*.*^
+||adsensor*.*^
+||24log.*^
+||vs*.gzcu.u3.ucweb.com^
+||engage.3m*^
+||adm*.autoimg.cn^
+||ads*-normal-hl.zijieapi.com^
+||xn--xhq9mt12cf5v.*^
+||qpb*.sohu.com^
+||ad-*.com^
+||ads*-adnow.com^
+||admob.*^
+||impservice*.youdao.com^
+||d*.ruiwen.com^
+||ping.*.sogou.com^
+||xscp0*xq.com^
+||adsmogo*.*^
+||ssc.southpark*^
+||adservice*.*^
+||ac*.786ip.com^
+||xdyn0*jy.com^
+||xn--wxtr9fwyxk9c.*^
+||d*.xinshipu.com^
+||p*-ad-sign.byteimg.com^
+||at*.doubanio.com^
+||dm*.yxlady.com^
+||same*.stockstar.com^
+||gg*.miguvideo.com^
+||dsp*.youdao.com^
+||guanggao*.*^
+||hhba0*kdh.com^
+||adsh*.*^
+@@||tongji.*kuwo.cn^
+||minero-proxy-*.sh^
+||qchannel*.cn^
+||tracker*.qcloud.com^
+||adwords*.*^
 ||reachableads-av.*.amazonaws.com^
+||pijama.*.elasticbeanstalk.com^
 ||ads*.dfiles.eu^
 ||valentine.xhamster.*^
 ||ad-host-backup-*.aliyuncs.com^
@@ -205,7 +259,6 @@ analytics-*.aasaam.com
 ||iptracker-lb-*.amazonaws.com^
 ||sax*.sina.
 ||putrr*.com^
-||pijama.*.elasticbeanstalk.com^
 ||ad*.wisenut.co.kr^
 ||ali-bj-pcdn-*.biliapi.net^
 ||tccd.douglas.
@@ -366,7 +419,6 @@ analytics-*.aasaam.com
 ||analytics*.prezly.com^
 ||collector.xhamster*.
 ||poptraf.
-||union*.365inews.com^
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
 ||adserver*.euroweeklynews.com^
@@ -425,7 +477,6 @@ analytics-*.aasaam.com
 ||bar*.shinobi.jp^
 ||cs*.mp3bars.com^
 ||tracking-v*.a.run.app^
-||tracking*.euroads.fi^
 ||weblogger-wss.cool*cloud.com^
 ||seller-log-collector.shopee.
 ||t.delfi.
@@ -447,7 +498,6 @@ analytics-*.aasaam.com
 ||track.tiara.
 ||orbit*.lun.ua^
 ||popupclick.
-||uc*.atobo.com^
 |load.sgtm.
 ||datacollector-*.dt.hicloud.com^
 ||mon-v*-boot.capcutapi.com^
@@ -588,7 +638,6 @@ analytics-*.aasaam.com
 ||sd.yhzzzs*.com^
 ||w*.*skwai.com^
 ||stun.*.kugou.com^
-||ja*.gamersky.com^
 ||qn-*pcdn.cdn.huya.com^
 ||zazgiyoh*.world^
 ||collector-*.us.tvsquared.com^
@@ -604,22 +653,15 @@ analytics-*.aasaam.com
 ||cas.*.criteo.com^
 ||n*adserv.com^
 ||zbc6hy*.live^
-||qpb*.sohu.com^
-||ads*-adnow.com^
 ||mobileanalytics.*.amazonaws.com^
 ||ads.*.yahoo.com^
-||impservice*.youdao.com^
-||d*.ruiwen.com^
 ||a*.chajiaotong.com^
 ||gads*s.com^
-||ac*.786ip.com^
 ||ad-host-backup-*.s3.*.amazonaws.com^
 ||geotargetly-api-*.com^
 ||fads*z.com^
 ||prod.*.publishers.advertising.a2z.com^
 ||display-ad-*.kgslb.com^
-||at*.doubanio.com^
-||dm*.yxlady.com^
 ||ej1*.online^
 ||log-*.epicdn.me^
 ||mistat.*.xiaomi.com^
@@ -644,6 +686,7 @@ analytics-*.aasaam.com
 ||zcchyw*.xyz^
 ||log*-misc-lq.amemv.com^
 ||stats*.credit-cooperatif.coop^
+||tracking*.euroads.fi^
 ||ulog*.*^
 ||mcdp-*.outbrain.com^
 ||prod.*.analytics.console.aws.a2z.com^
@@ -656,7 +699,6 @@ analytics-*.aasaam.com
 ||static*.365inews.com^
 ||ad.kisstvshow.*^
 ||widgets.*.webengage.com^
-||adi*.cnool.net^
 ||zabdybod*.club^
 ||hads*s.com^
 ||aj3*.bid^
@@ -675,6 +717,7 @@ analytics-*.aasaam.com
 ||p2pup*.gamedl.qq.com^
 ||qn-*pcdn.cdn.msstatic.com^
 ||zcchyr*.xyz^
+||uc*.atobo.com^
 ||js.*2023*.live^
 ||zaqlovh*.xyz^
 ||n*adserv.xyz^
@@ -687,12 +730,10 @@ analytics-*.aasaam.com
 ||chat*-ce.chatdealer.jp^
 ||collector-*.px-cloud.net^
 ||iad-*.braze.com^
-||d*.xinshipu.com^
 ||bjsvp*.space^
 ||log-*.previewnetworks.com^
 ||mads*z.com^
 ||gtlpa*.com^
-||same*.stockstar.com^
 ||admicro*.vcmedia.vn^
 ||stats-*.p2pnow.ru^
 ||ad-host-backup-*.*.aliyuncs.com^
@@ -710,5 +751,7 @@ analytics-*.aasaam.com
 ||aj2*.bid^
 ||firebaselogging-*.googleapis.com^
 ||gads*z.com^
+||union*.365inews.com^
 ||ad*.aginomoto.com
+||entry-verifed-cdn.
 ||imgpfx.arenavision.
