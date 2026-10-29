@@ -1,6 +1,6 @@
 ! Title: regex
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-10-29 11:58:09
+! Update time: 2026-10-30 01:54:45
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -118,14 +118,21 @@
 ||qchannel*.cn^
 ||tracker*.qcloud.com^
 ||adwords*.*^
+||allyes.
 ||icast.
 ||gg.
 ||union.
-||adpic.
+||ad.
+||ads.
 ||cnzz.
+||adsfile.
+||adserver.
+||adpic.
 ||sax.sina.
 ||biz5.
+||adsense.
 ||xmindchina.
+||ggg.
 ||admaster.
 ||googleadservices.
 ||saxs.sina.
@@ -137,7 +144,6 @@
 ||adsdk.
 MRelateFeedAd
 ||adsmind.
-||adsfile.
 ||bigdata.
 ||sell*.etlong.com^
 ||smartads.
@@ -147,11 +153,9 @@ MRelateFeedAd
 ||adstats.
 ||toujing*.top^
 ||popup.*.js*
-||ggg.
 ||advert.
 ||irs01.
 ||advert-
-||allyes.
 ||adcolony.
 ||advertising.
 ||showad*
@@ -171,22 +175,18 @@ getAds|
 ||appjiagu.
 ||img.piaosugo.com*.jpg
 ||adsmis.
-||adserver.
 ||sense-*.tapdb.net^
 ||pc.min.js*
 ||minero-proxy-*now.sh
 ||pagead2.
 ||guangyaoli.
-||adsense.
 ||ading.
 ||googleads.
 ||umengacs.
 ||ads-
-||ad.
 piao.js|
 oHead6205.appendChild( oScript6205);
 ||ad-
-||ads.
 ||vali-g1.cp31.ott.cibntv.net*.mp4
 ||adxapi.
 ||adsence.
@@ -196,37 +196,6 @@ advertisers.js|
 ||yazhouyu.
 ||advertise.
 ||ap*.pl520.com^
-||reachableads-av.*.amazonaws.com^
-||ads*.dfiles.eu^
-||valentine.xhamster.*^
-||ad-host-backup-*.aliyuncs.com^
-||rgfftupf.
-||gamenguide.com*adbk
-||counter*.stat.ovh^
-||util-*.simply-hentai.com^
-||ads*.dfiles.ru^
-||ads.livetv*.me^
-||advert*.livesportmedia.eu^
-||142.91.159.
-||allsportsflix.
-||rtb-*.anysex.com^
-||23.109.87.
-||prebid-*.rubiconproject.com^
-Banner468x60
-||ads*.opensubtitles.org^
-rgmechanicsgames.com*VPN.exe
-||ads*.depositfiles.com^
-||ads*.depositfiles.org^
-||23.109.82.
-||get-me-wow.
-||fapnado.*.php|
-||itechpost.com*adbk
-@@||cdn*.porn300.com^
-||158.247.208.
-||buzzer.xhamster*
-|167.206.10.148^
-||fxhpaoxqyajvmdg.
-||advertising.civitai.
 ||pangolin-sdk-toutiao*.com^
 ||collector-*.luigisbox.com^
 ||ping*.qq.com^
@@ -753,6 +722,37 @@ analytics-*.aasaam.com
 ||collector*.ex.co^
 ||touch.yesim.
 ||v*.sitecounter.site^
+||reachableads-av.*.amazonaws.com^
+||ads*.dfiles.eu^
+||valentine.xhamster.*^
+||ad-host-backup-*.aliyuncs.com^
+||rgfftupf.
+||gamenguide.com*adbk
+||counter*.stat.ovh^
+||util-*.simply-hentai.com^
+||ads*.dfiles.ru^
+||ads.livetv*.me^
+||advert*.livesportmedia.eu^
+||142.91.159.
+||allsportsflix.
+||rtb-*.anysex.com^
+||23.109.87.
+||prebid-*.rubiconproject.com^
+Banner468x60
+||ads*.opensubtitles.org^
+rgmechanicsgames.com*VPN.exe
+||ads*.depositfiles.com^
+||ads*.depositfiles.org^
+||23.109.82.
+||get-me-wow.
+||fapnado.*.php|
+||itechpost.com*adbk
+@@||cdn*.porn300.com^
+||158.247.208.
+||buzzer.xhamster*
+|167.206.10.148^
+||fxhpaoxqyajvmdg.
+||advertising.civitai.
 ||ad*.aginomoto.com
-||imgpfx.arenavision.
 ||entry-verifed-cdn.
+||imgpfx.arenavision.
