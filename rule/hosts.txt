@@ -1,6 +1,6 @@
 ! Title: hosts
 ! Description: AdGuard、AdGuardHome广告过滤规则合并/去重
-! Update time: 2026-11-25 14:36:37
+! Update time: 2026-11-26 04:57:31
 ! Homepage: https://github.com/pjy02/AdGuard-Rule
 
 
@@ -11111,6 +11111,7 @@
 0.0.0.0 admin.hotkeys.com
 0.0.0.0 ads.nola.com
 0.0.0.0 ads.theindependent.com
+0.0.0.0 bouncemultiple.pro
 0.0.0.0 ad6.bannerbank.ru
 0.0.0.0 c3.cembuyukhanli.com
 0.0.0.0 p5.preppypm.com
